@@ -12,6 +12,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import NamePlate from "./nameplate"
 import ButtonLayout from "./buttonlayout"
+import Skills from "./skills"
 import Footer from "./footer"
 import "./layout.css"
 
@@ -31,6 +32,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 		<NamePlate/>
 		<ButtonLayout/>
+    <Skills/>
         <Footer/>
 		<main>{children}</main>
       </>

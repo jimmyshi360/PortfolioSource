@@ -115,7 +115,7 @@ li {
 
   margin: 0 1.3% 0 1.3%;
   display: inline-block;
-	
+
 }
 
 .icon  {
@@ -136,7 +136,7 @@ li {
 		width: 8%;
 		margin: 0 3.3% 0 3.3%;
 	}
-	
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -144,7 +144,7 @@ li {
 		width: 15%;
 		margin: 0 3.3% 0 3.3%;
 	}
-	
+
 }
 
 .icon.git{
@@ -188,11 +188,11 @@ li {
 	}
 	.nameplate-title{
 		font-size: 4vw;
-	}	
-	
-	.nameplate-role{ 
+	}
+
+	.nameplate-role{
 		font-size: 4vw;
-	}	
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -201,11 +201,11 @@ li {
 	}
 	.nameplate-title{
 		font-size: 5vw;
-	}	
-	
-	.nameplate-role{ 
+	}
+
+	.nameplate-role{
 		font-size: 5vw;
-	}	
+	}
 }
 
 
@@ -216,7 +216,7 @@ li {
         -ms-animation: bounceInUp 1.7s; /* Internet Explorer */
          -o-animation: bounceInUp 1.7s; /* Opera < 12.1 */
             animation: bounceInUp 1.7s;
-			
+
 			animation-delay:0.2s;
 			-webkit-animation-delay:0.4s;
 			 -o-animation-delay:0.4s;
@@ -231,7 +231,7 @@ li {
         -ms-animation: bounceInUp 1.7s; /* Internet Explorer */
          -o-animation: bounceInUp 1.7s; /* Opera < 12.1 */
             animation: bounceInUp 1.7s;
-			
+
 			animation-delay:0.4s;
 			-webkit-animation-delay:0.6s;
 			 -o-animation-delay:0.6s;
@@ -246,7 +246,7 @@ li {
         -ms-animation: bounceInUp 1.7s; /* Internet Explorer */
          -o-animation: bounceInUp 1.7s; /* Opera < 12.1 */
             animation: bounceInUp 1.7s;
-			
+
 			animation-delay:0.8s;
 			-webkit-animation-delay:0.8s;
 			 -o-animation-delay:0.8s;
@@ -260,7 +260,7 @@ li {
         -ms-animation: bounceInUp 1.7s; /* Internet Explorer */
          -o-animation: bounceInUp 1.7s; /* Opera < 12.1 */
             animation: bounceInUp 1.7s;
-			
+
 			animation-delay:1s;
 			-webkit-animation-delay:1s;
 			 -o-animation-delay:1s;
@@ -286,7 +286,7 @@ li {
    100% {
       transform: translateY(0);
    }
-} 
+}
 
 .name-desc-container {
 	 opacity: 0;
@@ -295,7 +295,7 @@ li {
         -ms-animation: fadein 3s; /* Internet Explorer */
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
-			
+
 			animation-delay:0.5s;
 			-webkit-animation-delay:0.5s;
 			 -o-animation-delay:0.5s;
@@ -340,7 +340,7 @@ li {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
-			
+
 			animation-delay:0.6s;
 			-webkit-animation-delay:0.6s;
 			 -o-animation-delay:0.6s;
@@ -356,7 +356,7 @@ li {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
-			
+
 			animation-delay:0.7s;
 			-webkit-animation-delay:0.7s;
 			 -o-animation-delay:0.7s;
@@ -372,7 +372,7 @@ li {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
-			
+
 			animation-delay:0.7s;
 			-webkit-animation-delay:0.7s;
 			 -o-animation-delay:0.7s;
@@ -388,7 +388,7 @@ li {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
-			
+
 			animation-delay:0.8s;
 			-webkit-animation-delay:0.8s;
 			 -o-animation-delay:0.8s;
@@ -405,7 +405,7 @@ li {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
-			
+
 			animation-delay:0.9s;
 			-webkit-animation-delay:0.9s;
 			 -o-animation-delay:0.9s;
@@ -535,7 +535,7 @@ textarea {
 html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
-  
+
 }
 * {
   box-sizing: inherit;
@@ -942,4 +942,7 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.skills-wrapper {
+  text-align: center;
 }
