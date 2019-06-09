@@ -1,0 +1,26 @@
+.website{ 
+	width: 65vw;
+	height: 90vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .website{ 
+	width: 70vw;
+	height: 50vh;
+	}
+}
+
+.graphic{ 
+	width: 33vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .graphic{ 
+	width: 70vw;
+	}
+}
+
+.projects {
+	text-align: center;
+	
+}
