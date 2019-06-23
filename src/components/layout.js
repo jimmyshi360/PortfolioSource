@@ -13,6 +13,7 @@ import Header from "./header"
 import NamePlate from "./nameplate"
 import ButtonLayout from "./buttonlayout"
 import Skills from "./skills"
+import Experience from "./experience"
 import Footer from "./footer"
 import "./layout.css"
 
@@ -33,7 +34,8 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 		<NamePlate/>
 		<ButtonLayout/>
-    <Skills/>
+		
+		<Experience/>
         <Footer/>
 		<main>{children}</main>
       </>

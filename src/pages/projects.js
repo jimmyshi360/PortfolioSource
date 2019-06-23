@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import banner_shirt from "../images/banner_shirt.jpg"
 import banner from "../images/banner.png"
 import banner_campus from "../images/banner_campus.jpg"
+import genomic_project from "../images/genomic_project.png"
 import "./styles.css"
 import Footer from "./footer"
 const ProjectsPage = () => (
@@ -11,6 +12,10 @@ const ProjectsPage = () => (
   <div class="projects">
   
   <h2> These are my original designs</h2>
+  <h2>Software Projects</h2>
+  <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms" >
+	<img class="codebase" src={genomic_project}></img>
+	</a>
   <h2>Websites</h2>
   <a href="https://jimmyshi360.github.io/f19/" >
 	<p><b> My HopHacks Fall 2019 Website Design </b></p>
