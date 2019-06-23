@@ -16,6 +16,7 @@ import Skills from "./skills"
 import Footer from "./footer"
 import "./layout.css"
 
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
