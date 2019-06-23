@@ -17,7 +17,7 @@ class Experience extends React.Component {
   
 	 render(){
     return (
-<div style={{ marginTop: '0%', width: '100%', textAlign: 'center'}}>
+<div style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
 	<div className="experience-container">
 	
 		<div className="box-slide">
