@@ -4,8 +4,11 @@ import PropTypes from "prop-types"
 import React from "react"
 import apl_logo from "../images/apl_logo.jpg"
 import sem_logo from "../images/sem_logo.png"
+
+import AOS from 'aos';
 import hophacks_logo from "../images/hophacks_logo.png"
 import princeton_logo from "../images/princeton_logo.jpg"
+import 'aos/dist/aos.css'
 
 class Experience extends React.Component {
 	constructor(props){
@@ -13,6 +16,10 @@ class Experience extends React.Component {
   }
   
   componentDidMount() {
+	  this.aos = AOS;
+		this.aos.init({
+        duration: 2000
+      });
   }
   
 	 render(){
@@ -20,7 +27,11 @@ class Experience extends React.Component {
 <div style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
 	<div className="experience-container">
 	
-		<div className="box-slide">
+		<div className="box-slide" 
+		data-aos="fade-up"
+		data-aos-duration="1000"
+		data-aos-offset="400"
+		data-aos-delay="1000">
 			<a href= "https://www.jhuapl.edu/">
 				<div className="reveal-content">
 					<h4>APL<br/>
@@ -32,7 +43,11 @@ class Experience extends React.Component {
 				</div>
 			</a>
 		</div>
-		<div className="box-slide">
+		<div className="box-slide" 
+		data-aos="fade-up"
+		data-aos-duration="1000"
+		data-aos-offset="400"
+		data-aos-delay="1300">
 			<a href= "https://semester.ly/">
 				<div className="reveal-content">
 					<h4>Semester.ly</h4>
@@ -43,7 +58,11 @@ class Experience extends React.Component {
 				</div>
 			</a>
 		</div>
-		<div className="box-slide">		
+		<div className="box-slide" 
+		data-aos="fade-up"
+		data-aos-duration="1000"
+		data-aos-offset="400"
+		data-aos-delay="1600">		
 			<a href= "https://hophacks.com/">
 				<div className="reveal-content">
 					<h4>HopHacks</h4>
@@ -54,7 +73,11 @@ class Experience extends React.Component {
 				</div>
 			</a>
 		</div>
-		<div className="box-slide">
+		<div className="box-slide"
+		data-aos="fade-up"
+		data-aos-duration="1000"
+		data-aos-offset="400"
+		data-aos-delay="1900">
 			<a href= "https://www.princeton.edu/">
 				<div className="reveal-content">
 					<h4>Princeton University</h4>
