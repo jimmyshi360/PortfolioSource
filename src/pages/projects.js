@@ -20,7 +20,7 @@ const ProjectsPage = () => (
 <a href="https://jimmyshi360.github.io/charmcity/" >
 	<p><b> Charm City Murals Machine Learning Project </b></p>
 	</a>
-	   <iframe class="website" src="https://jimmyshi360.github.io/charmcity/" scrolling="no"></iframe>
+	   <iframe class="website" src="https://jimmyshi360.github.io/charmcity/" scrolling="yes"></iframe>
   <h2>Apparel</h2>
    <img class="graphic" src={banner_shirt} ></img>
    <h2>Graphics</h2>
