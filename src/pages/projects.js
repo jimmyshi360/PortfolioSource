@@ -5,19 +5,39 @@ import banner_shirt from "../images/banner_shirt.jpg"
 import banner from "../images/banner.png"
 import banner_campus from "../images/banner_campus.jpg"
 import genomic_project from "../images/genomic_project.png"
+import micropallet_project from "../images/micropallet_project.jpg"
+import js_img_project from "../images/js_img_project.jpg"
+import charmcity_proj from "../images/charmcity_proj.jpg"
+
 import "./styles.css"
 import Footer from "./footer"
 const ProjectsPage = () => (
 
-  <div class="projects">
+  <div class="projects" style={{marginTop: '50px'}}>
   
   <h2> These are my original designs</h2>
   <h2>Software Projects</h2>
 
   <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms" >
-    <p><b> Princeton Computational Genomics Research Project </b></p>
+    <p><b> Computational Genomics, Princeton University- Highly Parallel Computing Architecture </b></p>
 	<img class="codebase" src={genomic_project}></img>
 	</a>
+	
+	<a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis" >
+    <p><b> Image Processing Project (UC Irvine Collab)- Analyzing 32 + Megapixel Images </b></p>
+	<img class="codebase" src={micropallet_project}></img>
+	</a>
+	
+	<a href="https://jimmyshi360.github.io/charmcity/" >
+    <p><b> Machine Learning- Training CNN Models on 1 Image </b></p>
+	<img class="codebase" src={charmcity_proj}></img>
+	</a>
+	
+	<a href="https://github.com/jimmyshi360/micro-image-transformations" >
+    <p><b> Node JavaScript Image Processing Microlibrary </b></p>
+	<img class="codebase" src={js_img_project}></img>
+	</a>
+	
   <h2>Websites</h2>
   <a href="https://jimmyshi360.github.io/f19/" >
 	<p><b> My HopHacks Fall 2019 Website Design </b></p>
@@ -32,7 +52,7 @@ const ProjectsPage = () => (
    <img class="graphic" src={banner_shirt} ></img>
    <h2>Graphics</h2>
    <p><b>I designed the official JHU Class of 2022 Banner </b></p>
-    <img class="graphic" src={banner} ></img>
+    <img class="graphic" src={banner} ></img><br/>
 	<img class="graphic" src={banner_campus}></img>
 	<Footer/>
 </div>

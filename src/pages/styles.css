@@ -1,6 +1,6 @@
 .website{ 
 	width: 65vw;
-	height: 90vh;
+	height: 700px;
 }
 
 .codebase{ 
@@ -9,7 +9,7 @@
 @media only screen and (max-width: 800px) {
     .website{ 
 	width: 70vw;
-	height: 50vh;
+	height: 700px;
 	}
 }
 
