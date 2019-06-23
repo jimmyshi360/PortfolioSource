@@ -13,7 +13,9 @@ const ProjectsPage = () => (
   
   <h2> These are my original designs</h2>
   <h2>Software Projects</h2>
+
   <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms" >
+    <p><b> Princeton Computational Genomics Research Project </b></p>
 	<img class="codebase" src={genomic_project}></img>
 	</a>
   <h2>Websites</h2>
