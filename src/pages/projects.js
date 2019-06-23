@@ -23,14 +23,22 @@ const ProjectsPage = () => (
 	<img class="codebase" src={genomic_project}></img>
 	</a>
 	
-	<a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis" >
-    <p><b> Image Processing Project (UC Irvine Collab)- Analyzing 32 + Megapixel Images </b></p>
-	<img class="codebase" src={micropallet_project}></img>
+
+	
+	  <a href="https://www.youtube.com/watch?v=DyGzAc4K2yg" >
+	<p><b> Massive Role Playing Hack and Slash Game, built from scratch </b></p>
 	</a>
+    <iframe class="website" src="https://www.youtube.com/embed/DyGzAc4K2yg" frameborder="0" scrolling="yes" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+	
 	
 	<a href="https://jimmyshi360.github.io/charmcity/" >
     <p><b> Machine Learning- Training CNN Models on 1 Image </b></p>
 	<img class="codebase" src={charmcity_proj}></img>
+	</a>
+	
+		<a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis" >
+    <p><b> Image Processing Project (UC Irvine Collab)- Analyzing 32 + Megapixel Images </b></p>
+	<img class="codebase" src={micropallet_project}></img>
 	</a>
 	
 	<a href="https://github.com/jimmyshi360/micro-image-transformations" >
