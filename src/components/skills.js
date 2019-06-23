@@ -7,17 +7,37 @@ import Footer from "./footer"
 const Skills = () => (
   <div className="skills-wrapper"> 
     <ul>
-      <li>
-        <p>React
-        </p>
+		<li>
+        JS
       </li>
       <li>
-        <p>Python
-        </p>
+        React
+      </li>
+	  <li>
+        Redux
+      </li>
+	  <li>
+	    Jest
+	  </li>
+	  <li>
+        Saga
       </li>
       <li>
-        <p>Django
-        </p>
+        Python
+      </li>
+      <li>
+        Django
+      </li>
+    </ul>
+    <ul>
+		<li>
+        Java
+      </li>
+      <li>
+        JUnit
+      </li>
+	  <li>
+        C/C++
       </li>
     </ul>
   </div>

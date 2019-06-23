@@ -1,3 +1,4 @@
+
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
@@ -25,7 +26,7 @@ class NamePlate extends React.Component {
 			<p className="nameplate-role">
 				<b>{'<'}software engineer{'/>'}</b>
 			</p>
-			<p className="nameplate-title"> and <i>graphic designer</i>
+			<p className="nameplate-title"> and <i>artist</i>
 			</p>
 		</div>
 	</div>
