@@ -7,7 +7,7 @@ import banner_campus from "../images/banner_campus.jpg"
 import genomic_project from "../images/genomic_project.png"
 import micropallet_project from "../images/micropallet_project.jpg"
 import js_img_project from "../images/js_img_project.jpg"
-import charmcity_proj from "../images/charmcity_proj.jpg"
+import cc_project from "../images/cc_project.png"
 
 import "./styles.css"
 import Footer from "../components/footer"
