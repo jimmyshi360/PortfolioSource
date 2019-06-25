@@ -1,34 +1,47 @@
 import { Link } from "gatsby"
 import React from "react"
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
-const Footer = ( ) => (
-    <div
-      style={{
-      margin: `0 auto`,
-      maxWidth: 960,
-      padding: `0px 1.0875rem 1.45rem`,
-      paddingTop: 0,
-      }}
-    >
-      <footer>
-		<div style={{textAlign: 'center', marginTop: '100px'}}>
-			<p style={{fontSize: '1.4em'}}><b>
-			<Link to="/">
-				Home
-			</Link> · <Link to="/about/">
-				About
-			</Link> · <Link to="/projects/">
-				Projects
-			</Link> · <Link to="/contact/">
-				Contact
-			</Link>
-			</b>
+class Footer extends React.Component{
+
+	 componentDidMount() {
+	  this.aos = AOS;
+		this.aos.init({
+        duration: 2000
+      });
+  }
+  
+	render(){
+		
+	return(
+      <footer data-aos="fade-up"
+			data-aos-delay="500"
+			data-aos-duration="1000">
+		<div style={{textAlign: 'center', marginTop: '100px'}} 
+		>
+			<p style={{fontSize: '1.4em'}} 
+			
+			>
+				My portfolio site built from scratch using  
+				<a href="https://reactjs.org/"> ReactJS</a>, 
+				<a href="https://jquery.com/"> JQuery</a>, 
+				<a href="https://www.w3.org/standards/webdesign/htmlcss"> HTML5</a>,
+				<a href="http://lesscss.org/"> Less</a>, 
+				<a href="https://graphql.org/"> GraphQL</a>, 
+				<a href="https://www.gatsbyjs.org/"> GatsbyJS</a>, 
+				<a href="https://michalsnik.github.io/aos/"> AOS</a>, 
+				<a href="https://www.adobe.com/products/photoshop.html"> Adobe Photoshop</a> and 
+				<a href="https://www.adobe.com/products/aftereffects.html"> After Effects</a>
+
 			
 			</p>
 		</div>
         © {new Date().getFullYear()} Jimmy Shi
       </footer>
-    </div>
-)
+);
+	}
+	
+}
 
 export default Footer

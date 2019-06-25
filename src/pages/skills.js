@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import Footer from "./footer"
+import Footer from "../components/footer"
+import NavBar from "../components/navbar"
 
 const Skills = () => (
 
  <div className="skills-wrapper"> 
+	<NavBar/>
     <ul>
 		<li>
         JS

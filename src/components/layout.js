@@ -14,9 +14,10 @@ import NamePlate from "./nameplate"
 import ButtonLayout from "./buttonlayout"
 import Skills from "./skills"
 import Experience from "./experience"
+import NavBar from "./navbar"
 import Footer from "./footer"
 import "./layout.css"
-
+import "./css/font-awesome.min.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+		<NavBar/>
 		<NamePlate/>
 		<ButtonLayout/>
 		

@@ -10,11 +10,13 @@ import js_img_project from "../images/js_img_project.jpg"
 import charmcity_proj from "../images/charmcity_proj.jpg"
 
 import "./styles.css"
-import Footer from "./footer"
+import Footer from "../components/footer"
+import NavBar from "../components/navbar"
+
 const ProjectsPage = () => (
 
   <div class="projects" style={{marginTop: '50px'}}>
-  
+  <NavBar/>
   <h2> These are my original designs</h2>
   <h2>Software Projects</h2>
 
