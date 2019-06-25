@@ -6,7 +6,7 @@ import banner from "../images/banner.png"
 import banner_campus from "../images/banner_campus.jpg"
 import genomic_project from "../images/genomic_project.png"
 import micropallet_project from "../images/micropallet_project.jpg"
-import js_img_project from "../images/js_img_project.jpg"
+import js_img_project from "../images/js_img_project.png"
 import cc_project from "../images/cc_project.png"
 
 import "./styles.css"
