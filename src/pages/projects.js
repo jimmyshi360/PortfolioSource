@@ -35,7 +35,7 @@ const ProjectsPage = () => (
 	
 	<a href="https://jimmyshi360.github.io/charmcity/" >
     <p><b> Machine Learning- Training CNN Models on 1 Image </b></p>
-	<img class="codebase" src={charmcity_proj}></img>
+	<img class="codebase" src={cc_project}></img>
 	</a>
 	
 		<a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis" >
