@@ -20,7 +20,7 @@ class Footer extends React.Component{
 	return(
       <footer data-aos="zoom-in"
 			data-aos-delay="0"
-			data-aos-duration="2000" style={{position: 'absolute', bottom: '60px', width: '99.5%'}}>
+			data-aos-duration="2000" >
 		<div style={{textAlign: 'center'}} 
 		>
 			<p style={{fontSize: isMobile ? '1em': '1.4em'}}
