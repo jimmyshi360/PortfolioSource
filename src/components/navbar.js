@@ -44,8 +44,8 @@ class NavBar extends React.Component{
 	  
 			<ul>
 				<li>
-					<Link to="/" className="a">
-						<span>Home<i className="fa fa-home fa-lg nav-icon" aria-hidden="true"></i></span>
+					<Link to="/" className="a active">
+						<span>Home<i className="fa fa-home fa-lg nav-icon " aria-hidden="true"></i></span>
 					</Link > 
 				</li>
 				<li> 

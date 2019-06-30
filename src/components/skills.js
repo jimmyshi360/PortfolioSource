@@ -1,46 +1,37 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
 
-import Footer from "./footer"
+class Skills extends React.Component{
+	
+	render(){
+		
+		return(
 
-const Skills = () => (
-  <div className="skills-wrapper"> 
+ <div className="skills-wrapper" style={{marginTop: '50px', fontSize: '0.9em'}}>
+	<h4>Skills</h4>
     <ul>
+	<h5>Web Development</h5>
 		<li>
-        JS
+        React, Redux, Jest, 3+ years of experience (open-source, several websites including Hophacks Spring and Fall 2019 frontends, the JHU WiCS site, and Department of Defense mission planner site)
       </li>
+	   <h5>Backend/Middleware</h5>
       <li>
-        React
+        Python, Django, Redux-Saga
       </li>
-	  <li>
-        Redux
-      </li>
-	  <li>
-	    Jest
-	  </li>
-	  <li>
-        Saga
-      </li>
-      <li>
-        Python
-      </li>
-      <li>
-        Django
-      </li>
-    </ul>
-    <ul>
-		<li>
-        Java
-      </li>
-      <li>
-        JUnit
-      </li>
-	  <li>
-        C/C++
-      </li>
+	  <h5>General languages </h5>
+	<li>
+		 Java, JUnit, C# (Game programming), C/C++ (Coursework and robotics experience)
+	</li>
+	<h5>Digital Design Tools</h5>
+   <li>
+        Adobe Photoshop (designed the JHU banner with), Illustrator and After Effects (familiar)
+		</li>
     </ul>
   </div>
-)
+
+
+);
+	}
+}
 
 export default Skills

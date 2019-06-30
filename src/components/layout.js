@@ -38,6 +38,7 @@ const Layout = ({ children }) => (
 		<ButtonLayout/>
 		
 		<Experience/>
+		<Skills/>
         <Footer/>
 		<main>{children}</main>
       </>
