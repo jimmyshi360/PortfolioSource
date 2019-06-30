@@ -18,7 +18,7 @@ class Footer extends React.Component{
       <footer data-aos="zoom-in"
 			data-aos-delay="0"
 			data-aos-duration="2000">
-		<div style={{textAlign: 'center', marginTop: '100px'}} 
+		<div style={{textAlign: 'center'}} 
 		>
 			<p style={{fontSize: '1.4em'}} 
 			
