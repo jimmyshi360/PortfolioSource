@@ -30,6 +30,7 @@ class Experience extends React.Component {
 		
     return (
 		<div style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
+			<h5>Organizations {isMobile ? '(Click)' : '(Hover)'}</h5>
 			<div className="experience-container">
 			
 				<div className="box-slide" 

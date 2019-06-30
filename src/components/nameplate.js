@@ -28,6 +28,8 @@ class NamePlate extends React.Component {
 			</p>
 			<p className="nameplate-title"> and <i>digital designer</i>
 			</p>
+			<p>
+			Website under construction, please excuse the rough edges</p>
 		</div>
 	</div>
 </div>
