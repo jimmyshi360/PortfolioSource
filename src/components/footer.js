@@ -15,9 +15,9 @@ class Footer extends React.Component{
 	render(){
 		
 	return(
-      <footer data-aos="fade-up"
-			data-aos-delay="500"
-			data-aos-duration="1000">
+      <footer data-aos="zoom-in"
+			data-aos-delay="0"
+			data-aos-duration="2000">
 		<div style={{textAlign: 'center', marginTop: '100px'}} 
 		>
 			<p style={{fontSize: '1.4em'}} 
