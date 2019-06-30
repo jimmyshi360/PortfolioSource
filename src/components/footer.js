@@ -2,6 +2,9 @@ import { Link } from "gatsby"
 import React from "react"
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import {
+	isMobile
+} from "react-device-detect";
 
 class Footer extends React.Component{
 
@@ -20,7 +23,7 @@ class Footer extends React.Component{
 			data-aos-duration="2000">
 		<div style={{textAlign: 'center'}} 
 		>
-			<p style={{fontSize: '1.4em'}} 
+			<p style={{fontSize: isMobile ? '1em': '1.4em'}}
 			
 			>
 				My portfolio site built from scratch using  
