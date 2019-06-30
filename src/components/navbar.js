@@ -6,12 +6,15 @@ import icon from "../images/github_icon.png"
 
 class NavBar extends React.Component{
 	
+	constructor(props) {
+		super(props);
+		this.state={expanded: false};
+	}
+	
 	componentDidMount(){
+		
+		let currentComponent = this;
 		var hamburger = document.querySelector(".hamburger");
-		hamburger.addEventListener("click", function() {
-		hamburger.classList.toggle("is-active");
-		});
-  
 		$(document).ready(function(){
 		if( $('.cd-stretchy-nav').length > 0 ) {
 			var stretchyNavs = $('.cd-stretchy-nav');
@@ -20,17 +23,31 @@ class NavBar extends React.Component{
 				var stretchyNav = $(this),
 					stretchyNavTrigger = stretchyNav.find('.cd-nav-trigger');
 				
-				stretchyNavTrigger.on('click', function(event){
+				stretchyNavTrigger.on('click',(event) =>{
 					event.preventDefault();
 					stretchyNav.toggleClass('nav-is-visible');
+					currentComponent.setState({expanded: !currentComponent.state.expanded});
 				});
 			});
 
-			$(document).on('click', function(event){
+			$(document).on('click', (event)=>{
 				( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && stretchyNavs.removeClass('nav-is-visible');
+				( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && currentComponent.setState({expanded: false});
+				( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && $(hamburger).removeClass("is-active");
+
 			});
 		}
 		});	
+		
+		
+		hamburger.addEventListener("click", () =>{
+			if(currentComponent.state.expanded!==true) {
+				$(hamburger).addClass("is-active");
+			}
+			else {
+				$(hamburger).removeClass("is-active");
+			}
+		});
 	}
 	
 	render(){

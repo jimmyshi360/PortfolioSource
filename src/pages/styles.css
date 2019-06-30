@@ -1,8 +1,25 @@
 .website{ 
 	width: 65vw;
-	height: 700px;
+	height: 600px;
+}
+::-webkit-scrollbar {
+  width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ea4141; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 .codebase{ 
 	width: 35vw;
 }

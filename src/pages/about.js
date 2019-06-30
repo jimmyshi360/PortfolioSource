@@ -5,6 +5,9 @@ import NavBar from "../components/navbar"
 import profile from "../images/profile.jpg"
 import 'aos/dist/aos.css'
 import AOS from 'aos'
+import {
+	isMobile
+} from "react-device-detect";
 
 class AboutPage extends React.Component{
 	constructor(props){
@@ -30,19 +33,19 @@ class AboutPage extends React.Component{
 		data-aos-delay="0"></img>
 		
 
- <div className="desc" style={{marginLeft: '25%', marginRight: '25%'}} data-aos="fade-up"
+ <div className="desc" style={{marginLeft: isMobile ? '10%':'25%', marginRight: isMobile ? '10%':'25%'}} data-aos="fade-up"
 		data-aos-duration="1000"
 		data-aos-offset="400"
 		data-aos-delay="200">
-		<p>
+		<p style={{fontSize: isMobile ? '0.7em': '1em'}}>
  Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University. I love fullstack development and I currently
- intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- an Integrated Air Missile Defense mission planner for the US Navy.
+ intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Missile Defense Agency to be used by Navy Warfighters.
  </p>
- <p> I'm a digital artist and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs. 
+ <p style={{fontSize: isMobile ? '0.7em': '1em'}}> I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs. 
  I hope you like them!</p>
 </div>
 
- <Footer/>
+ <Footer />
 </div>
 
 

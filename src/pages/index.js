@@ -14,14 +14,15 @@ class IndexPage extends React.Component{
 	 componentDidMount() {
 	  this.aos = AOS;
 		this.aos.init({
-        duration: 2000
+        duration: 2000,
+		once: true
       });
   }
   
 	render(){
 	return(
   <Layout>
-    <SEO title="Jimmy Shi" description="Software Engineer and Digital Artist" keywords={[`Jimmy Shi`, `Mingze Shi`, `Website`]} />
+    <SEO title="Jimmy Shi" description="Jimmy Shi: Software Engineer and Digital Designer" keywords={[`Jimmy Shi`, `Mingze Shi`, `Website`]} />
     
     
   </Layout>

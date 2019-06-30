@@ -12,7 +12,7 @@ class Skills extends React.Component{
     <ul>
 	<h5>Web Development</h5>
 		<li>
-        React, Redux, Jest, 3+ years of experience (open-source, several websites including Hophacks Spring and Fall 2019 frontends, the JHU WiCS site, and Department of Defense mission planner site)
+        React, Redux, Jest, JavaScript, HTML, CSS/SCSS/Less 3+ years of experience (open-source, several websites including Hophacks Spring and Fall 2019 frontends, the JHU WiCS site, and Department of Defense mission planner site)
       </li>
 	   <h5>Backend/Middleware</h5>
       <li>

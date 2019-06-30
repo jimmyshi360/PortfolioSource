@@ -3,13 +3,17 @@ import { Link } from "gatsby"
 import Footer from "../components/footer"
 import NavBar from "../components/navbar"
 
-const Skills = () => (
+class Skills extends React.Component{
+	
+	render(){
+		
+		return(
 
  <div className="skills-wrapper"> 
 	<NavBar/>
     <ul>
 		<li>
-        JS
+        <h6>Web Development</h6>JS
       </li>
       <li>
         React
@@ -44,6 +48,8 @@ const Skills = () => (
   </div>
 
 
-)
+);
+	}
+}
 
 export default Skills
