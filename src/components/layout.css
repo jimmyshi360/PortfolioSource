@@ -53,6 +53,9 @@ a:hover {
   color: #ea4141;
 }
 
+button:focus {
+	outline: none;
+}
 
 abbr[title] {
   border-bottom: none;
@@ -936,6 +939,19 @@ pre tt:after {
 .box-slide:hover .reveal-content {
   top: 0%;
   
+}
+
+.top-after{
+	top: -100%;
+}
+
+.content-after{
+		top: 0%;
+}
+
+.a-disabled{
+	pointer-events: none;
+  cursor: default;
 }
 
 .reveal-content {

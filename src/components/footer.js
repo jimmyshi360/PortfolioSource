@@ -24,15 +24,15 @@ class Footer extends React.Component{
 			
 			>
 				My portfolio site built from scratch using  
-				<a href="https://reactjs.org/"> ReactJS</a>, 
-				<a href="https://jquery.com/"> JQuery</a>, 
-				<a href="https://www.w3.org/standards/webdesign/htmlcss"> HTML5</a>,
-				<a href="http://lesscss.org/"> Less</a>, 
-				<a href="https://graphql.org/"> GraphQL</a>, 
-				<a href="https://www.gatsbyjs.org/"> GatsbyJS</a>, 
-				<a href="https://michalsnik.github.io/aos/"> AOS</a>, 
-				<a href="https://www.adobe.com/products/photoshop.html"> Adobe Photoshop</a> and 
-				<a href="https://www.adobe.com/products/aftereffects.html"> After Effects</a>
+				<a href="https://reactjs.org/" target="_blank"> ReactJS</a>, 
+				<a href="https://jquery.com/" target="_blank"> JQuery</a>, 
+				<a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank"> HTML5</a>,
+				<a href="http://lesscss.org/" target="_blank"> Less</a>, 
+				<a href="https://graphql.org/" target="_blank"> GraphQL</a>, 
+				<a href="https://www.gatsbyjs.org/" target="_blank"> GatsbyJS</a>, 
+				<a href="https://michalsnik.github.io/aos/" target="_blank"> AOS</a>, 
+				<a href="https://www.adobe.com/products/photoshop.html" target="_blank"> Adobe Photoshop</a> and 
+				<a href="https://www.adobe.com/products/aftereffects.html" target="_blank"> After Effects</a>
 
 			
 			</p>
