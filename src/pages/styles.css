@@ -8,17 +8,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ea4141; 
+  background: #000; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #000; 
+  background: #ea4141; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #e36464; 
 }
 .codebase{ 
 	width: 35vw;

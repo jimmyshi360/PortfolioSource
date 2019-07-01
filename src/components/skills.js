@@ -1,13 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 class Skills extends React.Component{
-	
+			constructor(props){
+    super(props)
+  }
+	 componentDidMount() {
+		 
+	  this.aos = AOS;
+		this.aos.init({
+        duration: 2000
+      });
+	}
 	render(){
 		
 		return(
 
- <div className="skills-wrapper" style={{marginTop: '50px', fontSize: '0.9em'}}>
+ <div className="skills-wrapper" style={{marginTop: '50px', fontSize: '0.9em'}} data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-delay="700">
 	<h4>Skills</h4>
     <ul>
 	<h5>Web Development</h5>

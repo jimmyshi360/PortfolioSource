@@ -72,7 +72,7 @@ class NavBar extends React.Component{
 				</li> 
 				<li>
 					<Link to="/projects/" className="a">
-						<span>Portfolio<i className="fa fa-file-code-o fa-lg nav-icon" aria-hidden="true"></i></span>
+						<span>Projects<i className="fa fa-file-code-o fa-lg nav-icon" aria-hidden="true"></i></span>
 					</Link> 
 				</li>
 				<li>
