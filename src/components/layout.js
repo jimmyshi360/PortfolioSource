@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
 		<NavBar/>
 		<NamePlate/>
 		<ButtonLayout/>
-		
+
 		<Experience/>
 		<Skills/>
         <Footer/>

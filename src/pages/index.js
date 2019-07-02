@@ -18,13 +18,13 @@ class IndexPage extends React.Component{
 		once: true
       });
   }
-  
+
 	render(){
 	return(
   <Layout>
     <SEO title="Jimmy Shi" description="Jimmy Shi: Software Engineer and Digital Designer" keywords={[`Jimmy Shi`, `Mingze Shi`, `Website`]} />
-    
-    
+
+
   </Layout>
 )
 }
