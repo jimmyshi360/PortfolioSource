@@ -28,7 +28,7 @@ class Skills extends React.Component{
       </li>
 	   <h5>Backend/Middleware</h5>
       <li>
-        Python, Django, Redux-Saga
+        Python, Django, Redux-Saga, WebSockets
       </li>
 	  <h5>General languages </h5>
 	<li>
