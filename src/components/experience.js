@@ -32,7 +32,7 @@ class Experience extends React.Component {
 		<div style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
 			<h4 data-aos="fade-up"
 				data-aos-duration="1000"
-				data-aos-delay="1200">Organizations (hover!)</h4>
+				data-aos-delay="1200">Organizations {isMobile ? '(click!)' : '(hover!)' }</h4>
 			<div className="experience-container">
 			
 				<div className="box-slide" 
@@ -41,7 +41,7 @@ class Experience extends React.Component {
 				data-aos-delay="1000">
 					<a href= "https://www.jhuapl.edu/" target="_blank" className={isMobile ? 'a-disabled' : ''}>
 				<div className="reveal-content">
-							<h4>APL<br/>
+							<h4>JHU APL,<br/>
 							Air Missile Defense</h4>
 							<h6>Frontend SWE Intern</h6>
 						</div>
