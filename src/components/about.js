@@ -24,6 +24,7 @@ class About extends React.Component{
 
   <div id="about-section" style={{textAlign: 'center',
   marginTop: '150px'}}>
+  <h4>About</h4>
   <img className="desc" src={profile} style={{borderRadius: '100%', width: '100px'}} data-aos="fade-up"
 		data-aos-duration="1000"
 		data-aos-offset="400"

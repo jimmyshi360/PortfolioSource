@@ -15,7 +15,7 @@ import "../pages/styles.css"
 const Projects = () => (
 
   <div id="projects-section" class="projects" style={{marginTop: '100px'}}>
-  <h1>Software Projects</h1>
+ <h4>Projects</h4>
 
  <a href="https://jimmyshi360.github.io/f19/" >
 	<p><b> My HopHacks Fall 2019 Website Design </b></p>
