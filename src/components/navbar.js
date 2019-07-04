@@ -41,9 +41,7 @@ class NavBar extends React.Component{
 		<div id="scroller-anchor" ></div>
 		<div id="scroller" className="navbar">
 
-		<div className="navlist-wrapper" data-aos="fade-up"
-                                                      				data-aos-duration="1000"
-                                                      				data-aos-delay="1200">
+		<div className="navlist-wrapper">
 			<ul>
 				<li>
 					<a  onClick={()=> {$('html, body').animate({scrollTop: 0}, 1500);}}>
