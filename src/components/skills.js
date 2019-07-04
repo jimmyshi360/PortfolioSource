@@ -18,7 +18,7 @@ class Skills extends React.Component{
 
 		return(
 
- <div id="skills-section" className="skills-wrapper" style={{fontSize: '0.9em'}} >
+ <div id="skills-section" className="skills-wrapper" style={{marginTop: '100px', fontSize: '0.9em'}} >
 
 	<h4>Skills</h4>
     <ul>

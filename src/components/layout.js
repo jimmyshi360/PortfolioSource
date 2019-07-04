@@ -40,8 +40,9 @@ const Layout = ({ children }) => (
 		<NamePlate/>
 		<ButtonLayout/>
         <NavBar/>
+        </div>
 		<Experience/>
-		</div>
+
 		<Skills/>
 		<Projects/>
 		<About/>

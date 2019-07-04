@@ -33,8 +33,9 @@ class Experience extends React.Component {
 			<h4 data-aos="fade-up"
 				data-aos-duration="1000"
 				data-aos-delay="1200">Experience</h4>
+				<p> {"Here are some organizations I've worked at:"}</p>
 			<div className="experience-container">
-			
+
 				<div className="box-slide" 
 				data-aos="fade-up"
 				data-aos-duration="1000"

@@ -45,6 +45,13 @@
 	
 }
 
+.nav-container {
+
+    position: absolute;
+    bottom: 0px;
+     width: 100%;
+     left: 0px;
+}
 .navbar {
     width: 100%;
     text-align: center;
@@ -67,11 +74,11 @@
 }
 .navlist-wrapper a{
     cursor: pointer;
-     color: #e5e5e5;
+     color: #fff;
 }
 
 .navlist-wrapper a:hover{
-    color: #fff;
+    color:  #000;
 }
 
 .navlist-wrapper li{

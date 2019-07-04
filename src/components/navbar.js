@@ -37,7 +37,7 @@ class NavBar extends React.Component{
 	
 	render(){
 		return (
-		<div >
+		<div className="nav-container">
 		<div id="scroller-anchor" ></div>
 		<div id="scroller" className="navbar">
 
