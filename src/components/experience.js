@@ -29,10 +29,10 @@ class Experience extends React.Component {
 	render(){
 		
     return (
-		<div style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
+		<div id="experience-section" style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
 			<h4 data-aos="fade-up"
 				data-aos-duration="1000"
-				data-aos-delay="1200">Organizations {isMobile ? '(click!)' : '(hover!)' }</h4>
+				data-aos-delay="1200">Experience</h4>
 			<div className="experience-container">
 			
 				<div className="box-slide" 

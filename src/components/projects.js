@@ -10,14 +10,11 @@ import js_img_project from "../images/js_img_project.png"
 import cc_project from "../images/cc_project.png"
 import pirate_maps_project from "../images/pirate_maps.png"
 
-import "./styles.css"
-import Footer from "../components/footer"
-import NavBar from "../components/navbar"
+import "../pages/styles.css"
 
-const ProjectsPage = () => (
+const Projects = () => (
 
-  <div class="projects" style={{marginTop: '50px'}}>
-  <NavBar/>
+  <div id="projects-section" class="projects" style={{marginTop: '100px'}}>
   <h1>Software Projects</h1>
 
  <a href="https://jimmyshi360.github.io/f19/" >
@@ -64,10 +61,9 @@ const ProjectsPage = () => (
    <p><b>I designed the official JHU Class of 2022 Banner </b></p>
     <img class="graphic" src={banner} ></img><br/>
 	<img class="graphic" src={banner_campus}></img>
-	<Footer/>
 </div>
 
 
 )
 
-export default ProjectsPage
+export default Projects

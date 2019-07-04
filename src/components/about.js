@@ -1,7 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Footer from "../components/footer"
-import NavBar from "../components/navbar"
 import profile from "../images/profile.jpg"
 import 'aos/dist/aos.css'
 import AOS from 'aos'
@@ -9,7 +7,7 @@ import {
 	isMobile
 } from "react-device-detect";
 
-class AboutPage extends React.Component{
+class About extends React.Component{
 	constructor(props){
     super(props)
   }
@@ -24,9 +22,8 @@ class AboutPage extends React.Component{
 		
 	return(
 
-  <div style={{textAlign: 'center',
+  <div id="about-section" style={{textAlign: 'center',
   marginTop: '150px'}}>
-  <NavBar/>
   <img className="desc" src={profile} style={{borderRadius: '100%', width: '100px'}} data-aos="fade-up"
 		data-aos-duration="1000"
 		data-aos-offset="400"
@@ -45,7 +42,13 @@ class AboutPage extends React.Component{
  I hope you like them!</p>
 </div>
 
- <Footer />
+
+ <p className="desc" style={{marginLeft: '20%', marginRight: '20%'}} >
+<b>E-mail:</b> jimmyshi360@gmail.com <br/>
+<b>Phone:</b> (609)-216-0130 <br/>
+<b>LinkedIn Username:</b> jimmyshi360
+
+ </p>
 </div>
 
 
@@ -53,4 +56,4 @@ class AboutPage extends React.Component{
 	}
 
 }
-export default AboutPage
+export default About

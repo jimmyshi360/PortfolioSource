@@ -23,6 +23,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+
 }
 audio:not([controls]) {
   display: none;
@@ -183,7 +184,7 @@ ul{
 
 @media only screen and (max-width: 600px) {
     .name{
-		width: 40%;
+		width: 60%;
 	}
 	.nameplate-title{
 		font-size: 5vw;

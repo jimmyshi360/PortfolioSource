@@ -13,8 +13,10 @@ import Header from "./header"
 import NamePlate from "./nameplate"
 import ButtonLayout from "./buttonlayout"
 import Skills from "./skills"
+import Projects from "./projects"
 import Experience from "./experience"
 import NavBar from "./navbar"
+import About from "./about"
 import Footer from "./footer"
 import "./layout.css"
 import "./css/font-awesome.min.css"
@@ -32,13 +34,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+       <div style={{height: '100vh'}}>
         <Header siteTitle={data.site.siteMetadata.title} />
-		<NavBar/>
+
 		<NamePlate/>
 		<ButtonLayout/>
-
+        <NavBar/>
 		<Experience/>
+		</div>
 		<Skills/>
+		<Projects/>
+		<About/>
         <Footer/>
 		<main>{children}</main>
       </>
