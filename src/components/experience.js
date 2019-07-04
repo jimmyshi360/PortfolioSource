@@ -30,10 +30,9 @@ class Experience extends React.Component {
 		
     return (
 		<div id="experience-section" style={{ marginTop: '1%', width: '100%', textAlign: 'center'}}>
-			<h4 data-aos="fade-up"
+			<p data-aos="fade-up"
 				data-aos-duration="1000"
-				data-aos-delay="1200">Experience</h4>
-				<p> {"Here are some organizations I've worked at:"}</p>
+				data-aos-delay="500">Experience</p>
 			<div className="experience-container">
 
 				<div className="box-slide" 
@@ -69,7 +68,7 @@ class Experience extends React.Component {
 				<div className="box-slide" 
 				data-aos="fade-up"
 				data-aos-duration="1000"
-				data-aos-delay="1600">		
+				data-aos-delay="1600">
 					<a href= "https://hophacks.com/"  target="_blank"className={isMobile ? 'a-disabled' : ''}>
 						<div className="reveal-content">
 							<h4>HopHacks</h4>

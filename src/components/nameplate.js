@@ -17,7 +17,7 @@ class NamePlate extends React.Component {
   
 	 render(){
     return (
-<div style={{marginBottom: '50px', marginTop: '10%'}}>
+<div style={{marginBottom: '2vh', marginTop: '10%'}}>
 
 	<div style={{textAlign: 'center'}}>
 		<img className="name" id="anim" />

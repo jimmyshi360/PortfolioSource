@@ -45,13 +45,6 @@
 	
 }
 
-.nav-container {
-
-    position: absolute;
-    bottom: 0px;
-     width: 100%;
-     left: 0px;
-}
 .navbar {
     width: 100%;
     text-align: center;
@@ -83,5 +76,5 @@
 
 .navlist-wrapper li{
     display: inline-block;
-     margin: 5px 1vw;
+     margin: 8px 1vw;
 }

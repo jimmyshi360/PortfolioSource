@@ -37,7 +37,7 @@ class NavBar extends React.Component{
 	
 	render(){
 		return (
-		<div className="nav-container">
+		<div style={{marginTop: '50px'}}>
 		<div id="scroller-anchor" ></div>
 		<div id="scroller" className="navbar">
 
@@ -46,11 +46,6 @@ class NavBar extends React.Component{
 				<li>
 					<a  onClick={()=> {$('html, body').animate({scrollTop: 0}, 1500);}}>
 						<span>Home</span>
-					</a>
-				</li>
-                <li>
-					<a  onClick={()=> {$('html, body').animate({scrollTop: $('#experience-section').offset().top-100}, 1500);}}>
-						<span>Experience</span>
 					</a>
 				</li>
 				<li>
