@@ -33,11 +33,12 @@ class NavBar extends React.Component{
             };
             $(window).scroll(move);
             move();
+			
 	}
 	
 	render(){
 		return (
-		<div style={{marginTop: '50px'}}>
+		<div id="nav-section" style={{marginTop: '50px'}}>
 		<div id="scroller-anchor" ></div>
 		<div id="scroller" className="navbar">
 
