@@ -51,7 +51,7 @@ I'm a digital designer and I enjoy creating polished experiences for all sorts o
         </div>
 
 
-        <p className="desc" style={{ marginLeft: '20%', marginRight: '20%' }}>
+        <p className="desc" style={{ marginLeft: '20%', marginRight: '20%',fontSize: isMobile ? '0.7em' : '1em' }}>
           <b>E-mail:</b>
           {' '}
 jimmyshi360@gmail.com

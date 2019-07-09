@@ -15,7 +15,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer style={{ marginTop: '2%' }}>
+      <footer style={{ top: '0px' }}>
         <hr/>
         <div style={{ textAlign: 'center' }}>
           <p style={{ fontSize: isMobile ? '1em' : '1.2em' }}>

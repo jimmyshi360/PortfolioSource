@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div style={{ height: '100vh' }}>
+        <div style={{ height: '100%' }}>
           <Header siteTitle={data.site.siteMetadata.title} />
 
           <NamePlate />
