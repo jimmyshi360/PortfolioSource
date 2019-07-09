@@ -28,7 +28,7 @@ class NavBar extends React.Component {
       } else {
         $scroller.css({
           position: 'relative',
-          top:""
+          top: '',
         });
       }
     };

@@ -947,7 +947,7 @@ pre tt:after {
 		top: 0%;
 }
 
-.a-disabled{
+a.disabled{
 	pointer-events: none;
   cursor: default;
 }

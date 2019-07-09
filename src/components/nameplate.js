@@ -1,18 +1,11 @@
-
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 
-import name_anim from '../images/name_anim.gif';
+import nameAnim from '../images/name_anim.gif';
 
 class NamePlate extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
 	  const elementLogo = document.getElementById('anim');
-    elementLogo.src = `${name_anim}?${new Date().getTime()}`;
+    elementLogo.src = `${nameAnim}?${new Date().getTime()}`;
   }
 
 	 render() {

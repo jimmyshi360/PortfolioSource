@@ -3,8 +3,8 @@ import AOS from 'aos';
 import {
   isMobile,
 } from 'react-device-detect';
-import apl_logo from '../images/apl_logo.jpg';
-import sem_logo from '../images/sem_logo.png';
+import aplLogo from '../images/apl_logo.jpg';
+import semLogo from '../images/sem_logo.png';
 
 
 import 'aos/dist/aos.css';
@@ -28,7 +28,7 @@ class Experience extends React.Component {
           data-aos-duration="1000"
           data-aos-delay="500"
         >
-Experience
+Experience {isMobile ? '(tap!)' : '(hover!)'}
         </p>
         <div className="experience-container">
 
@@ -38,7 +38,7 @@ Experience
             data-aos-duration="1000"
             data-aos-delay="1000"
           >
-            <a href="https://www.jhuapl.edu/" target="_blank" className={isMobile ? 'a-disabled' : ''}>
+            <a href="https://www.jhuapl.edu/" target="_blank" className={isMobile ? 'disabled' : ''}>
               <div className="reveal-content">
                 <h4>
 JHU APL,
@@ -48,7 +48,7 @@ JHU APL,
                 <h6>Frontend SWE Intern</h6>
               </div>
               <div className="reveal-top">
-                <img className="slide-image" src={apl_logo} />
+                <img className="slide-image" src={aplLogo} />
               </div>
             </a>
           </div>
@@ -59,13 +59,13 @@ JHU APL,
             data-aos-duration="1000"
             data-aos-delay="1300"
           >
-            <a href="https://semester.ly/" target="_blank" className={isMobile ? 'a-disabled' : ''}>
+            <a href="https://semester.ly/" target="_blank" className={isMobile ? 'disabled' : ''}>
               <div className="reveal-content">
                 <h4>Semester.ly</h4>
                 <h6>Fullstack SWE Intern</h6>
               </div>
               <div className="reveal-top">
-                <img className="slide-image" src={sem_logo} />
+                <img className="slide-image" src={semLogo} />
               </div>
             </a>
           </div>
@@ -75,7 +75,7 @@ JHU APL,
             data-aos-duration="1000"
             data-aos-delay="1600"
           >
-            <a href="https://hophacks.com/" target="_blank" className={isMobile ? 'a-disabled' : ''}>
+            <a href="https://hophacks.com/" target="_blank" className={isMobile ? 'disabled' : ''}>
               <div className="reveal-content">
                 <h4>HopHacks</h4>
                 <h6>Frontend Lead</h6>
@@ -91,7 +91,7 @@ JHU APL,
             data-aos-duration="1000"
             data-aos-delay="1900"
           >
-            <a href="https://www.princeton.edu/" target="_blank" className={isMobile ? 'a-disabled' : ''}>
+            <a href="https://www.princeton.edu/" target="_blank" className={isMobile ? 'disabled' : ''}>
               <div className="reveal-content">
                 <h4>Princeton University</h4>
                 <h6>Research Intern</h6>

@@ -1,13 +1,9 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import AOS from 'aos';
 import github_icon from '../images/github_icon.png';
 import linkedin_icon from '../images/linkedin_icon.png';
 import resume_icon from '../images/resume_icon.png';
-import projects_icon from '../images/projects_icon.png';
-import Footer from './footer';
 
 import 'aos/dist/aos.css';
 

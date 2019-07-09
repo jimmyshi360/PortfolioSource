@@ -13,10 +13,16 @@ class Skills extends React.Component {
   render() {
     return (
 
-      <div id="skills-section" className="skills-wrapper" style={{ marginTop: '100px', fontSize: '0.9em', marginLeft: '10vw', marginRight: '10vw' }}>
+      <div
+        id="skills-section"
+        className="skills-wrapper"
+        style={{
+          marginTop: '100px', fontSize: '0.9em', marginLeft: '10vw', marginRight: '10vw',
+        }}
+      >
 
         <h4>Skills</h4>
-        <ul style={{ listStyle: 'none'}}>
+        <ul style={{ listStyle: 'none' }}>
           <h5>Web Development</h5>
           <li>
         React, Redux, Jest, JavaScript, HTML,
