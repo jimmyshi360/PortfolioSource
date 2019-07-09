@@ -5,21 +5,21 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from "./header"
-import NamePlate from "./nameplate"
-import ButtonLayout from "./buttonlayout"
-import Skills from "./skills"
-import Projects from "./projects"
-import Experience from "./experience"
-import NavBar from "./navbar"
-import About from "./about"
-import Footer from "./footer"
-import "./layout.css"
-import "./css/font-awesome.min.css"
+import Header from './header';
+import NamePlate from './nameplate';
+import ButtonLayout from './buttonlayout';
+import Skills from './skills';
+import Projects from './projects';
+import Experience from './experience';
+import NavBar from './navbar';
+import About from './about';
+import Footer from './footer';
+import './layout.css';
+import './css/font-awesome.min.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -34,28 +34,28 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-       <div style={{height: '100vh'}}>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <div style={{ height: '100vh' }}>
+          <Header siteTitle={data.site.siteMetadata.title} />
 
-		<NamePlate/>
-		<ButtonLayout/>
-		<Experience/>
-        <NavBar/>
+          <NamePlate />
+          <ButtonLayout />
+          <Experience />
+          <NavBar />
         </div>
 
 
-		<Skills/>
-		<Projects/>
-		<About/>
-        <Footer/>
-		<main>{children}</main>
+        <Skills />
+        <Projects />
+        <About />
+        <Footer />
+        <main>{children}</main>
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
