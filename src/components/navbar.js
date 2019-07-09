@@ -63,6 +63,11 @@ class NavBar extends React.Component {
                   <span>Home</span>
                 </Link>
               </li>
+			   <li>
+                <Link to="/about">
+                  <span>About</span>
+                </Link>
+              </li>
               <li>
               <Link to="/skills">
                   <span>Skills</span>
@@ -73,11 +78,7 @@ class NavBar extends React.Component {
                   <span>Projects</span>
                 </Link>
               </li>
-              <li>
-                <Link to="/about">
-                  <span>About</span>
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>
