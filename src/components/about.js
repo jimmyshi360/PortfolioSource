@@ -5,6 +5,10 @@ import {
   isMobile,
 } from 'react-device-detect';
 import profile from '../images/profile.jpg';
+import mhsHackathon from '../images/hackMHS.jpg';
+import stem from '../images/stem.jpg';
+import nyu from '../images/nyu.jpg';
+
 
 class About extends React.Component {
 	 componentDidMount() {
@@ -40,9 +44,37 @@ class About extends React.Component {
 
         >
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
- Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University. I love fullstack development and I currently
+ Hi! I'm Jimmy, a Sophomore(almost Junior Standing) Computer Science Major at Johns Hopkins University. I love fullstack development and I currently
  intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Missile Defense Agency to be used by Navy Warfighters.
           </p>
+		  <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+		  I like to hang out with my friends at Hackathons. Coming up with new ideas and having fun making them is why I love software engineering!
+		  </p>
+		  <img
+          alt="loading"
+          className="desc"
+          src={nyu}
+          style={{  width: '30vw' }}
+   
+        />
+		<h6>Best AWS and Assistive Tech Track at HackNYU</h6>
+		<img
+          alt="loading"
+          className="desc"
+          src={stem}
+          style={{  width: '30vw' }}
+		
+        />
+		<h6>A picture with some influential people in the video game industry</h6>
+		<h6>(left) Emil Pagliarulo, Game Design Director of Skyrim at Bethesday (right) Ed Fries, Former Vice President of publishing at Microsoft</h6>
+		 <img
+          alt="loading"
+          className="desc"
+          src={mhsHackathon}
+          style={{  width: '30vw' }}
+   
+        />
+		<h6>MY first Hackathon! Best mobile app at HackMHS</h6>
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
