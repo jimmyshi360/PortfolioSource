@@ -54,7 +54,7 @@ class About extends React.Component {
           alt="loading"
           className="desc"
           src={nyu}
-          style={{  width: '30vw' }}
+          className="about-image"
    
         />
 		<h6>Best AWS and Assistive Tech Track at HackNYU</h6>
@@ -62,7 +62,7 @@ class About extends React.Component {
           alt="loading"
           className="desc"
           src={stem}
-          style={{  width: '30vw' }}
+          className="about-image"
 		
         />
 		<h6>A picture with some influential people in the video game industry</h6>
@@ -71,7 +71,7 @@ class About extends React.Component {
           alt="loading"
           className="desc"
           src={mhsHackathon}
-          style={{  width: '30vw' }}
+          className="about-image"
    
         />
 		<h6>MY first Hackathon! Best mobile app at HackMHS</h6>
