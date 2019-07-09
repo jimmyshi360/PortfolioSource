@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from '../components/about';
 import NavBar from '../components/navbar';
+import Footer from '../components/footer';
 
 class AboutPage extends React.Component {
   componentDidMount() {
@@ -18,7 +19,8 @@ class AboutPage extends React.Component {
     return (
       <div style={{height: '100vh'}}> 
       <About/>
-      <NavBar/>
+      <NavBar dynamic={false}/>
+      <Footer/>
       </div>
     );
   }

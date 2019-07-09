@@ -6,43 +6,48 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = { expanded: false };
+    this.move = this.move.bind(this);
+  }
+
+    move ($anchor, $scroller) {
+    const st = $(window).scrollTop();
+    const ot = $anchor.offset().top;
+    if(this.props.dynamic) {
+    if (st > ot) {
+      $scroller.css({
+        position: 'fixed',
+        top: '0px',
+        left: '0px',
+      });
+    } else if (st + window.innerHeight <= ot + 36) {
+      $scroller.css({
+        position: 'fixed',
+        bottom: '0px',
+        left: '0px',
+      });
+    } else {
+      $scroller.css({
+        position: 'relative',
+        top: '',
+      });
+    }
+   }
+   else {
+    $scroller.css({
+      position: 'fixed',
+      top: '0px',
+      left: '0px',
+    });
+  }
   }
 
   componentDidMount() {
     const $anchor = $('#scroller-anchor');
     const $scroller = $('#scroller');
 
-    const move = function () {
-      const st = $(window).scrollTop();
-      const ot = $anchor.offset().top;
-      /** 
-      if (st > ot) {
-        $scroller.css({
-          position: 'fixed',
-          top: '0px',
-          left: '0px',
-        });
-      } else if (st + window.innerHeight <= ot + 36) {
-        $scroller.css({
-          position: 'fixed',
-          bottom: '0px',
-          left: '0px',
-        });
-      } else {
-        $scroller.css({
-          position: 'relative',
-          top: '',
-        });
-      }
-      */
-     $scroller.css({
-      position: 'fixed',
-      bottom: '0px',
-      left: '0px',
-    });
-    };
-    $(window).scroll(move);
-    move();
+    
+    $(window).scroll(this.move($anchor, $scroller));
+    this.move($anchor, $scroller);
   }
 
   render() {
