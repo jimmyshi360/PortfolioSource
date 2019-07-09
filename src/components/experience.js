@@ -49,8 +49,9 @@ class Experience extends React.Component {
 							<img className="slide-image" src={apl_logo}></img>
 						</div>	
 					</a>
-				
+
 				</div>
+
 				<div className="box-slide" 
 				data-aos="fade-up"
 				data-aos-duration="1000"
@@ -94,6 +95,7 @@ class Experience extends React.Component {
 					</a>
 				
 				</div>
+
 			</div>
 		</div>
 )

@@ -24,10 +24,17 @@ class NavBar extends React.Component{
                         top: "0px",
                         left: "0px",
                     });
-                } else {
+                }
+                else if(st+window.innerHeight<=ot+16){
                     $scroller.css({
-                        position: "relative",
-                        top: ""
+                                        position: "fixed",
+                                        bottom: "0px"
+                                    });
+                }
+                else {
+
+                    $scroller.css({
+                        position: "relative"
                     });
                 }
             };
