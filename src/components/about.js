@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import {
@@ -8,10 +7,6 @@ import {
 import profile from '../images/profile.jpg';
 
 class About extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
 	 componentDidMount() {
 	  this.aos = AOS;
     this.aos.init({
@@ -31,23 +26,18 @@ class About extends React.Component {
       >
         <h4>About</h4>
         <img
+          alt="loading"
           className="desc"
           src={profile}
           style={{ borderRadius: '100%', width: '100px' }}
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-offset="400"
-          data-aos-delay="0"
+   
         />
 
 
         <div
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-offset="400"
-          data-aos-delay="200"
+
         >
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
  Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University. I love fullstack development and I currently

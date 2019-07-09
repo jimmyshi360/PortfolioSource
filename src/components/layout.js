@@ -42,11 +42,6 @@ const Layout = ({ children }) => (
           <Experience />
           <NavBar />
         </div>
-
-
-        <Skills />
-        <Projects />
-        <About />
         <Footer />
         <main>{children}</main>
       </>

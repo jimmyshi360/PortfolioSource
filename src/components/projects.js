@@ -13,7 +13,7 @@ import '../pages/styles.css';
 
 const Projects = () => (
 
-  <div id="projects-section" className="projects" style={{ marginTop: '100px' }}>
+  <div id="projects-section" className="projects" style={{ marginTop: '5%' }}>
     <h4>Projects</h4>
 
     <a href="https://jimmyshi360.github.io/f19/">

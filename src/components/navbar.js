@@ -1,5 +1,6 @@
 import React from 'react';
 import $ from 'jquery/dist/jquery.js';
+import { Link } from "gatsby"
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class NavBar extends React.Component {
     const move = function () {
       const st = $(window).scrollTop();
       const ot = $anchor.offset().top;
+      /** 
       if (st > ot) {
         $scroller.css({
           position: 'fixed',
@@ -24,6 +26,7 @@ class NavBar extends React.Component {
         $scroller.css({
           position: 'fixed',
           bottom: '0px',
+          left: '0px',
         });
       } else {
         $scroller.css({
@@ -31,6 +34,12 @@ class NavBar extends React.Component {
           top: '',
         });
       }
+      */
+     $scroller.css({
+      position: 'fixed',
+      bottom: '0px',
+      left: '0px',
+    });
     };
     $(window).scroll(move);
     move();
@@ -45,24 +54,24 @@ class NavBar extends React.Component {
           <div className="navlist-wrapper">
             <ul>
               <li>
-                <a onClick={() => { $('html, body').animate({ scrollTop: 0 }, 1500); }}>
+              <Link to="/">
                   <span>Home</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a onClick={() => { $('html, body').animate({ scrollTop: $('#skills-section').offset().top - 100 }, 1500); }}>
+              <Link to="/skills">
                   <span>Skills</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a onClick={() => { $('html, body').animate({ scrollTop: $('#projects-section').offset().top - 100 }, 1500); }}>
+              <Link to="/projects">
                   <span>Projects</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a onClick={() => { $('html, body').animate({ scrollTop: $('#about-section').offset().top - 100 }, 1500); }}>
+                <Link to="/about">
                   <span>About</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
