@@ -49,8 +49,8 @@ class About extends React.Component {
 
         >
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
- Hi! I'm Jimmy, a Sophomore(almost Junior Standing) Computer Science Major at Johns Hopkins University. I love fullstack development and I currently
- intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Missile Defense Agency to be used by Navy Warfighters.
+ Hi! I'm Jimmy, a Sophomore(almost Junior Standing) Computer Science Major at Johns Hopkins University. I love Full Stack development and I currently
+ intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Department of Defense to be used by Navy Warfighters.
           </p>
 		  <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
 		  I like to hang out with my friends at Hackathons. Coming up with new ideas and having fun making them is why I love software engineering!
