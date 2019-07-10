@@ -6,13 +6,17 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = { expanded: false };
-    this.move = this.move.bind(this);
   }
 
-    move ($anchor, $scroller) {
+
+  componentDidMount() {
+    const $anchor = $('#scroller-anchor');
+    const $scroller = $('#scroller');
+	const t=this;
+    const move=()=> {
     const st = $(window).scrollTop();
     const ot = $anchor.offset().top;
-    if(this.props.dynamic) {
+    if(t.props.dynamic) {
     if (st > ot) {
       $scroller.css({
         position: 'fixed',
@@ -39,15 +43,11 @@ class NavBar extends React.Component {
       left: '0px',
     });
   }
-  }
-
-  componentDidMount() {
-    const $anchor = $('#scroller-anchor');
-    const $scroller = $('#scroller');
-
+	}
+  
     
-    $(window).scroll(this.move($anchor, $scroller));
-    this.move($anchor, $scroller);
+    $(window).scroll(move);
+    move();
   }
 
   render() {
