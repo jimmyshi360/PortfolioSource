@@ -40,7 +40,7 @@ Experience
             data-aos-duration="1000"
             data-aos-delay="1000"
           >
-            <a {... isMobile ? {} : {href:"https://www.jhuapl.edu/"}} target="_blank">
+            <a {... isMobile ? {} : { href: 'https://www.jhuapl.edu/' }} target="_blank">
               <div className="reveal-content">
                 <h4>
 JHU APL,
@@ -61,7 +61,7 @@ JHU APL,
             data-aos-duration="1000"
             data-aos-delay="1300"
           >
-            <a {... isMobile ? {} : {href:"https://semester.ly/"}} target="_blank">
+            <a {... isMobile ? {} : { href: 'https://semester.ly/' }} target="_blank">
               <div className="reveal-content">
                 <h4>Semester.ly</h4>
                 <h6>Fullstack SWE Intern</h6>
@@ -77,7 +77,7 @@ JHU APL,
             data-aos-duration="1000"
             data-aos-delay="1600"
           >
-            <a {... isMobile ? {} : {href:"https://hophacks.com/"}}  target="_blank" >
+            <a {... isMobile ? {} : { href: 'https://hophacks.com/' }} target="_blank">
               <div className="reveal-content">
                 <h4>HopHacks</h4>
                 <h6>Frontend Lead</h6>
@@ -93,7 +93,7 @@ JHU APL,
             data-aos-duration="1000"
             data-aos-delay="1900"
           >
-            <a {... isMobile ? {} : {href:"https://www.princeton.edu/"}} target="_blank">
+            <a {... isMobile ? {} : { href: 'https://www.princeton.edu/' }} target="_blank">
               <div className="reveal-content">
                 <h4>Princeton University</h4>
                 <h6>Research Intern</h6>

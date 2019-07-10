@@ -40,11 +40,11 @@ const Layout = ({ children }) => (
           <NamePlate />
           <ButtonLayout />
           <Experience />
-		  <p>Please checkout my About page!</p>
-          <NavBar dynamic={true} active={1}/>
-		  
+          <p>Please checkout my About page!</p>
+          <NavBar dynamic active={1} />
+
         </div>
-		
+
         <Footer />
         <main>{children}</main>
       </>
