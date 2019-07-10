@@ -34,14 +34,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div style={{ height: '100%' }}>
+        <div style={{ height: '100%', textAlign: 'center' }}>
           <Header siteTitle={data.site.siteMetadata.title} />
 
           <NamePlate />
           <ButtonLayout />
           <Experience />
+		  <p>Please checkout my About page!</p>
           <NavBar dynamic={true}/>
+		  
         </div>
+		
         <Footer />
         <main>{children}</main>
       </>
