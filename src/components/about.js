@@ -8,7 +8,9 @@ import profile from '../images/profile.jpg';
 import mhsHackathon from '../images/hackMHS.jpg';
 import stem from '../images/stem.jpg';
 import nyu from '../images/nyu.jpg';
-
+import hophacks from '../images/hophacks.jpg';
+import vienna from '../images/vienna.jpg';
+import cmu from '../images/cmu.jpg';
 
 class About extends React.Component {
 	 componentDidMount() {
@@ -50,6 +52,16 @@ class About extends React.Component {
 		  <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
 		  I like to hang out with my friends at Hackathons. Coming up with new ideas and having fun making them is why I love software engineering!
 		  </p>
+		   <img
+          alt="loading"
+          className="desc"
+          src={hophacks}
+          className="about-image"
+   
+        />
+		<h6>2nd Place at HopHacks 2018</h6>
+		
+
 		  <img
           alt="loading"
           className="desc"
@@ -57,7 +69,7 @@ class About extends React.Component {
           className="about-image"
    
         />
-		<h6>Best AWS and Assistive Tech Track at HackNYU</h6>
+		<h6>Best AWS and Assistive Tech Track at HackNYU 2017</h6>
 		<img
           alt="loading"
           className="desc"
@@ -74,7 +86,33 @@ class About extends React.Component {
           className="about-image"
    
         />
-		<h6>My first Hackathon! Best mobile app at HackMHS</h6>
+		<h6>My first Hackathon! Best mobile app at HackMHS 2015</h6>
+		
+		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+		Perhaps your curious where I came from. I was born in Beijing, but lived around China and Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over. My first experience with tech was on an old iMac in Vienna where I would play Pac-Man! I knew that someday I would make my own video games as a hobby.
+		</p>
+		<img
+          alt="loading"
+          className="desc"
+          src={vienna}
+          className="about-image"
+   
+        />
+		<h6>(left) me, (right) family friend</h6>
+		
+		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+          Well eventually I enrolled in a Game Design Academy at Carnegie Mellong University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!
+          </p>
+		<img
+          alt="loading"
+          className="desc"
+          src={vienna}
+          className="about-image"
+   
+        />
+		<h6>The fence, Carnegie Mellon University</h6>
+		
+		</p>
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
