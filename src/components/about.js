@@ -145,6 +145,9 @@ Did I mention I like to draw? I used to take art classes, but I transitioned my 
         />
 		<h6>My winning banner design</h6>
 		
+		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+		As of now, I am working on expanding my knowledge of the Full Stack, while still applying beautiful design to the software projects I work on.  Modular, extensible and technical debt free code is right up my alley.  I especially love designing highly scalable backend systems and responsible clean User Interfaces.  Rest assured that I never forget about those clean end-to-end integration tests!</p>
+		
 		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
