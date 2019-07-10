@@ -161,7 +161,7 @@ A picture with some influential people in the video game industry
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		In college, I got into webdesign working for HopHacks and the ACM. I designed the 2019 HopHacks Spring and Fall Website Frontends and I help maintain the WiCS website.
+		In college, I got into web development working for HopHacks and the ACM. I designed the 2019 HopHacks Spring and Fall Website Frontends and I help maintain the WiCS website.
         </p>
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 Did I mention I like to draw? I used to take art classes. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
