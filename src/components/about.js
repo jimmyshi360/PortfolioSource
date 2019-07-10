@@ -65,8 +65,8 @@ class About extends React.Component {
           className="about-image"
 		
         />
-		<h6>A picture with some influential people in the video game industry</h6>
-		<h6>(left) Emil Pagliarulo, Game Design Director of Skyrim at Bethesday (right) Ed Fries, Former Vice President of publishing at Microsoft</h6>
+		
+		<h6>A picture with some influential people in the video game industry<br/>(left) Emil Pagliarulo, Game Design Director of Skyrim at Bethesday (right) Ed Fries, Former Vice President of publishing at Microsoft</h6>
 		 <img
           alt="loading"
           className="desc"
@@ -74,7 +74,7 @@ class About extends React.Component {
           className="about-image"
    
         />
-		<h6>MY first Hackathon! Best mobile app at HackMHS</h6>
+		<h6>My first Hackathon! Best mobile app at HackMHS</h6>
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
