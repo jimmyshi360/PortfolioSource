@@ -92,7 +92,7 @@ class About extends React.Component {
 		<h6>My first Hackathon! Best mobile app at HackMHS 2015</h6>
 		
 		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
-		Perhaps your curious where I came from. I was born in Beijing, but lived around China and Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over. My first experience with tech was on an old iMac in Vienna where I would play Pac-Man! I knew that someday I would make my own video games as a hobby.
+		Perhaps you're wondering where I'm from. I was born in Beijing, but lived around China and Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over. My first experience with tech was on an old iMac in Vienna where I would play Pac-Man! I knew that someday I would make my own video games as a hobby.
 		</p>
 		<img
           alt="loading"
