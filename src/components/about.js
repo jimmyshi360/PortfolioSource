@@ -104,7 +104,7 @@ class About extends React.Component {
 		<h6>(left) me, (right) family friend</h6>
 		
 		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
-          Eventually I enrolled in a Game Design Academy at Carnegie Mellong University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  Our final project won a National award from a game design competition started by Barack Obama, the National STEM Video Game Design Challenge. 
+          Eventually I enrolled in a Game Design Academy at Carnegie Mellon University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  Our final project won a National award from a game design competition started by Barack Obama, the National STEM Video Game Design Challenge. 
           </p>
 		<img
           alt="loading"
