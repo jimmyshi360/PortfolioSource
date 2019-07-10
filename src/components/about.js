@@ -106,7 +106,7 @@ class About extends React.Component {
 		<img
           alt="loading"
           className="desc"
-          src={vienna}
+          src={cmu}
           className="about-image"
    
         />
