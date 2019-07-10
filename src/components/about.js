@@ -104,7 +104,7 @@ class About extends React.Component {
 		<h6>(left) me, (right) family friend</h6>
 		
 		 <p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
-          Eventually I enrolled in the National High School Video Game Design Academy at Carnegie Mellon University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  Our final project won a National award from a game design competition started by Barack Obama: the National STEM Video Game Design Challenge. 
+          Eventually I enrolled in the National High School Video Game Design Academy at Carnegie Mellon University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  My team's final project won a National award from a game design competition started by Barack Obama: the National STEM Video Game Design Challenge. 
           </p>
 		<img
           alt="loading"
@@ -113,7 +113,7 @@ class About extends React.Component {
           className="about-image"
    
         />
-		<h6>The Fence, Carnegie Mellon University</h6>
+		<h6>Chilling with friends at The Fence, Carnegie Mellon University</h6>
 		<img
           alt="loading"
           className="desc"
@@ -136,10 +136,10 @@ class About extends React.Component {
 		<h6>Getting ready for Google Foobar</h6>
 		
 		<p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
-		In college, I got into webdesign working for HopHacks and the ACM. I've made the 2019 Spring and Fall Website Frontends and I help maintain the WiCS website.
+		In college, I got into webdesign working for HopHacks and the ACM. I've made the 2019 HopHacks Spring and Fall Website Frontends and I help maintain the WiCS website.
           </p>
 		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
-Did I mention I like to draw? I used to take art classes, but I transitioned my knowledge into the digital realm. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!          </p>
+Did I mention I like to draw? I used to take art classes. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!          </p>
 		  <img
           alt="loading"
           className="desc"
@@ -150,7 +150,7 @@ Did I mention I like to draw? I used to take art classes, but I transitioned my 
 		<h6>A drawing of my friend from the ACM</h6>
 		
 		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
-		I submitted a digital banner entry for JHU's 2022 Banner Competition, and welp, my classmates voted on it and I got to march my banner through the JHU campus!</p>
+		I submitted a digital banner entry for JHU's 2022 Banner Competition, and welp, my classmates voted for it and I got to march my banner through the JHU campus!</p>
          	  <img
           alt="loading"
           className="desc"
