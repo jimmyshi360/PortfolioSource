@@ -124,7 +124,7 @@ class About extends React.Component {
 		<h6>National STEM Video Game Design Challenge</h6>
 		
 		<p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
-		My career in tech was certainly kick-started by game development. I've spent many hours messing around in the Unity Game Engine. My true beginning in tech however was through my high school's Computer Science curriculum. I'm grateful for the Intro to Java Programming and Advanced Algorithms classes that I took. I got into competition programming, and participated in many competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and a fun challenge called Google Foobar!
+		My career in tech was certainly kick-started by game development. I've spent many hours messing around in the Unity Game Engine. My true beginning in tech however was through my high school's Computer Science curriculum. I'm grateful for the Intro to Java Programming and Advanced Algorithms classes that I took. I got into competition programming, and participated in many competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, ACM Intecollegiate Programming Contest, and a fun challenge called Google Foobar!
 		</p>
 		<img
           alt="loading"
@@ -133,7 +133,7 @@ class About extends React.Component {
           className="about-image2"
    
         />
-		<h6>Getting ready for Foobar</h6>
+		<h6>Getting ready for Google Foobar</h6>
 		
 		<p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
 		In college, I got into webdesign working for HopHacks and the ACM. I've made the 2019 Spring and Fall Website Frontends and I help maintain the WiCS website.
