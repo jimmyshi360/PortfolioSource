@@ -103,7 +103,7 @@ class About extends React.Component {
         />
 		<h6>(left) me, (right) family friend</h6>
 		
-		 <p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
+		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
           Eventually I enrolled in the National High School Video Game Design Academy at Carnegie Mellon University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  My team's final project won a National award from a game design competition started by Barack Obama: the National STEM Video Game Design Challenge. 
           </p>
 		<img
@@ -123,7 +123,7 @@ class About extends React.Component {
         />
 		<h6>National STEM Video Game Design Challenge</h6>
 		
-		<p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
+		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
 		My career in tech was certainly kick-started by game development. I've spent many hours messing around in the Unity Game Engine. My true beginning in tech however was through my high school's Computer Science curriculum. I'm grateful for the Intro to Java Programming and Advanced Algorithms classes that I took. I got into competition programming, and participated in many competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, ACM Intecollegiate Programming Contest, and a fun challenge called Google Foobar!
 		</p>
 		<img
@@ -135,7 +135,7 @@ class About extends React.Component {
         />
 		<h6>Getting ready for Google Foobar</h6>
 		
-		<p style={{ fontSize: isMobile ? '0 .7em' : '1em' }}>
+		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
 		In college, I got into webdesign working for HopHacks and the ACM. I've made the 2019 HopHacks Spring and Fall Website Frontends and I help maintain the WiCS website.
           </p>
 		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
