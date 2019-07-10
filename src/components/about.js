@@ -13,6 +13,7 @@ import vienna from '../images/vienna.jpg';
 import cmu from '../images/cmu.jpg';
 import stemAward from '../images/stemAward.jpg';
 import joshan from '../images/joshan.jpg';
+import banner from '../images/banner_campus.jpg';
 
 class About extends React.Component {
 	 componentDidMount() {
@@ -132,7 +133,19 @@ Did I mention I like to draw? I used to take art classes, but I transitioned my 
    
         />
 		<h6>A drawing of my friend from the ACM</h6>
-          <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+		
+		<p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+		I submitted a digital banner entry for JHU's 2022 Banner Competition, and welp, my classmates voted on it and I got to march my banner through the JHU campus!</p>
+         	  <img
+          alt="loading"
+          className="desc"
+          src={banner}
+          className="about-image"
+   
+        />
+		<h6>My winning banner design</h6>
+		
+		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
  I hope you like them!
