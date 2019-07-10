@@ -47,7 +47,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
- Hi! I'm Jimmy, a Sophomore(almost Junior Standing) Computer Science Major at Johns Hopkins University. I love Full Stack development and I currently
+ Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University looking to graduate in 2022. I love Full Stack development and I currently
  intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Department of Defense to be used by Navy Warfighters.
           </p>
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
