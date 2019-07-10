@@ -91,7 +91,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		It's certainly been a long journey since I first started in tech. Perhaps you're wondering where I began and where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the east.  During my travels, I had my first experience with tech on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games!
+		It's certainly been a long journey since I first started in tech. Perhaps you're wondering where I began and where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the east.  During my travels, I had my first experience with tech on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
         </p>
         </div>
         <img
@@ -106,7 +106,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-          Eventually I enrolled in the National High School Video Game Design Academy at Carnegie Mellon University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  My team's final project won a National award from a game design competition started by Barack Obama: the National STEM Video Game Design Challenge.
+          I played around a ton with the Unity Game Engine in my free time, often bringing my laptop to the lunch table for people to playtest my games. Eventually, in the Summer of 2016, I enrolled in the National High School Video Game Design Academy at Carnegie Mellon University. I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  My team's final project won a National award from a game design competition started by Barack Obama: the National STEM Video Game Design Challenge.
         </p>
         </div>
         <img
