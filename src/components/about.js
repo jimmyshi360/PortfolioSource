@@ -112,7 +112,6 @@ class About extends React.Component {
         />
 		<h6>The fence, Carnegie Mellon University</h6>
 		
-		</p>
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
