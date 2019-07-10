@@ -11,6 +11,7 @@ import nyu from '../images/nyu.jpg';
 import hophacks from '../images/hophacks.jpg';
 import vienna from '../images/vienna.jpg';
 import cmu from '../images/cmu.jpg';
+import stemAward from '../images/stemAward.jpg';
 
 class About extends React.Component {
 	 componentDidMount() {
@@ -101,7 +102,7 @@ class About extends React.Component {
 		<h6>(left) me, (right) family friend</h6>
 		
 		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
-          Well eventually I enrolled in a Game Design Academy at Carnegie Mellong University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!
+          Eventually I enrolled in a Game Design Academy at Carnegie Mellong University in the Summer of 2016 where I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  Our final project won a National award from a game design competition started by Barack Obama, the National STEM Video Game Design Challenge. 
           </p>
 		<img
           alt="loading"
@@ -110,8 +111,15 @@ class About extends React.Component {
           className="about-image"
    
         />
-		<h6>The fence, Carnegie Mellon University</h6>
-		
+		<h6>The Fence, Carnegie Mellon University</h6>
+		<img
+          alt="loading"
+          className="desc"
+          src={stemAward}
+          className="about-image"
+   
+        />
+		<h6>National STEM Video Game Design Challenge</h6>
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
