@@ -1,19 +1,10 @@
 import React from 'react';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Projects from '../components/projects';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 
-class SkillsPage extends React.Component {
-  componentDidMount() {
-    this.aos = AOS;
-    this.aos.init({
-      duration: 2000,
-      once: true,
-    });
-  }
+class ProjectsPage extends React.Component {
 
   render() {
     return (
@@ -26,4 +17,4 @@ class SkillsPage extends React.Component {
   }
 }
 
-export default SkillsPage;
+export default ProjectsPage;
