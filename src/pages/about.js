@@ -19,7 +19,7 @@ class AboutPage extends React.Component {
     return (
       <div style={{height: '100vh'}}> 
       <About/>
-      <NavBar dynamic={false}/>
+      <NavBar dynamic={false} active={2}/>
       <Footer/>
       </div>
     );

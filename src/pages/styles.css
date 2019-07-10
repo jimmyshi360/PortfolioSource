@@ -48,7 +48,6 @@
 .navbar {
     width: 100%;
     text-align: center;
-    justify-contents: center;
     z-index: 20;
 }
 
@@ -65,16 +64,29 @@
         width: 100%;
     }
 }
-.navlist-wrapper a{
-    cursor: pointer;
-     color: #fff;
-}
-
-.navlist-wrapper a:hover{
-    color:  #000;
-}
 
 .navlist-wrapper li{
     display: inline-block;
      margin: 6px 1vw;
+}
+
+
+.navbarItem span{
+  transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  color: #fff;
+}
+
+.navbarItem.active {
+  border-bottom: 3px solid white;
+}
+.navbarItem:hover span{
+
+  color:  #000;
+}
+
+.navbarItem:hover .active {
+  border-bottom: 3px solid black;
 }

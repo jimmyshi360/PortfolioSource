@@ -19,7 +19,7 @@ class SkillsPage extends React.Component {
     return (
       <div style={{height: '100vh'}}> 
       <Projects/>
-      <NavBar dynamic={false}/>
+      <NavBar dynamic={false} active={4}/>
       <Footer/>
       </div>
     );

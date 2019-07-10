@@ -12,7 +12,7 @@ class NavBar extends React.Component {
   componentDidMount() {
     const $anchor = $('#scroller-anchor');
     const $scroller = $('#scroller');
-	const t=this;
+	  const t=this;
     const move=()=> {
     const st = $(window).scrollTop();
     const ot = $anchor.offset().top;
@@ -23,7 +23,7 @@ class NavBar extends React.Component {
         top: '0px',
         left: '0px',
       });
-    } else if (st + window.innerHeight <= ot + 36) {
+    } else if (st + window.innerHeight <= ot + 22) {
       $scroller.css({
         position: 'fixed',
         bottom: '0px',
@@ -58,22 +58,22 @@ class NavBar extends React.Component {
 
           <div className="navlist-wrapper">
             <ul>
-              <li>
+              <li className={this.props.active===1 ? "navbarItem  active" : "navbarItem "}>
               <Link to="/">
                   <span>Home</span>
                 </Link>
               </li>
-			   <li>
+			         <li className={this.props.active===2 ? "navbarItem  active" : "navbarItem "}>
                 <Link to="/about">
                   <span>About</span>
                 </Link>
               </li>
-              <li>
+              <li className={this.props.active===3 ? "navbarItem  active" : "navbarItem "}>
               <Link to="/skills">
                   <span>Skills</span>
                 </Link>
               </li>
-              <li>
+              <li className={this.props.active===4 ? "navbarItem  active" : "navbarItem "}>
               <Link to="/projects">
                   <span>Projects</span>
                 </Link>

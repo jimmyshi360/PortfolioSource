@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
           <ButtonLayout />
           <Experience />
 		  <p>Please checkout my About page!</p>
-          <NavBar dynamic={true}/>
+          <NavBar dynamic={true} active={1}/>
 		  
         </div>
 		
