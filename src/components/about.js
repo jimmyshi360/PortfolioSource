@@ -12,6 +12,7 @@ import hophacks from '../images/hophacks.jpg';
 import vienna from '../images/vienna.jpg';
 import cmu from '../images/cmu.jpg';
 import stemAward from '../images/stemAward.jpg';
+import joshan from '../images/joshan.jpg';
 
 class About extends React.Component {
 	 componentDidMount() {
@@ -120,6 +121,17 @@ class About extends React.Component {
    
         />
 		<h6>National STEM Video Game Design Challenge</h6>
+		
+		 <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
+Did I mention I like to draw? I used to take art classes, but I transitioned my knowledge into the digital realm. I treat my website like art, and really anything as art! Software, text documents, I think beautiful design makes everything better!          </p>
+		  <img
+          alt="loading"
+          className="desc"
+          src={joshan}
+          className="about-image"
+   
+        />
+		<h6>A drawing of my friend from the ACM</h6>
           <p style={{ fontSize: isMobile ? '0.7em' : '1em' }}>
             {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
