@@ -81,7 +81,7 @@ class About extends React.Component {
 		
         />
 		
-		<h6>A picture with some influential people in the video game industry<br/>(left) Emil Pagliarulo, Game Design Director of Skyrim at Bethesday (right) Ed Fries, Former Vice President of publishing at Microsoft</h6>
+		<h6>A picture with some influential people in the video game industry<br/>(left) Emil Pagliarulo, Game Design Director of Skyrim at Bethesda (right) Ed Fries, Former Vice President of publishing at Microsoft</h6>
 		 <img
           alt="loading"
           className="desc"
