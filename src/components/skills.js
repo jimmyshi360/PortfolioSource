@@ -34,13 +34,13 @@ class Skills extends React.Component {
           </li>
           <h5>Backend/Middleware</h5>
           <li>
-          <span className="skill-item">Python</span><span className="skill-item">Django</span> 
+          <span className="skill-item">Python</span><span className="skill-item">Django (familiar)</span> 
           <span className="skill-item">Redux-Saga</span> <span className="skill-item">WebSockets</span>
           </li>
           <h5>General languages </h5>
           <li>
-          <span className="skill-item">Java</span> <span className="skill-item">JUnit</span> <span className="skill-item">C# </span> <span className="skill-item">C</span>
-          <span className="skill-item">C++</span> 
+          <span className="skill-item">Java</span> <span className="skill-item">JUnit</span> <span className="skill-item">C# </span> <span className="skill-item">C (familiar)</span>
+          <span className="skill-item">C++ (familiar)</span> 
           </li>
           <h5>Digital Design Tools</h5>
           <li>
