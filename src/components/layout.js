@@ -40,7 +40,7 @@ const Layout = ({ children }) => (
           <NamePlate />
           <ButtonLayout />
           <Experience />
-          <NavBar dynamic active={1} />
+          <NavBar dynamic={false} active={1} />
 
         </div>
 
