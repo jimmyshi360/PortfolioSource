@@ -71,20 +71,34 @@ class About extends React.Component {
         <h6>2nd Place at HopHacks 2018</h6>
 
 
-        <img
-          alt="loading"
-          className="desc"
-          src={nyu}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img2">
+          <img
+            alt="loading"
+            src={nyu}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img2">
+          <img src={nyu} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
         <h6>Best AWS and Assistive Tech Track at HackNYU 2017</h6>
        
-        <img
-          alt="loading"
-          className="desc"
-          src={mhsHackathon}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img3">
+          <img
+            alt="loading"
+            src={mhsHackathon}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img3">
+          <img src={mhsHackathon} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
         <h6>My first Hackathon! Best mobile app at HackMHS 2015</h6>
         <div
           className="desc"
@@ -94,12 +108,19 @@ class About extends React.Component {
 		Perhaps you're wondering where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the pace.  My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
         </p>
         </div>
-        <img
-          alt="loading"
-          className="desc"
-          src={vienna}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img4">
+          <img
+            alt="loading"
+            src={vienna}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img4">
+          <img src={vienna} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
         <h6>(left) me, (right) family friend</h6>
         <div
           className="desc"
@@ -110,19 +131,33 @@ class About extends React.Component {
         </p>
         </div>
  
-        <img
-          alt="loading"
-          className="desc"
-          src={stemAward}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img5">
+          <img
+            alt="loading"
+            src={stemAward}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img5">
+          <img src={stemAward} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
         <h6>National STEM Video Game Design Challenge</h6>
-        <img
-          alt="loading"
-          className="desc"
-          src={stem}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img6">
+          <img
+            alt="loading"
+            src={stem}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img6">
+          <img src={stem} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
 
 <div
           className="desc"
@@ -146,12 +181,19 @@ I also like to draw. I used to take art classes and I treat everything like it's
           {' '}
         </p>
         </div>
-        <img
-          alt="loading"
-          className="desc"
-          src={joshan}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img7">
+          <img
+            alt="loading"
+            src={joshan}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img7">
+          <img src={joshan} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
         <h6>A drawing of my friend from the ACM</h6>
         <div
           className="desc"
@@ -160,12 +202,19 @@ I also like to draw. I used to take art classes and I treat everything like it's
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 I designed the Official 2022 JHU Class Banner, and I apply my digital design skills in college through web development. I help maintain the WiCS website and I create new responsive frontends each year for HopHacks.        </p>
         </div>
-        <img
-          alt="loading"
-          className="desc"
-          src={banner}
-          className="about-image"
-        />
+        <a className="lightbox" href="#img8">
+          <img
+            alt="loading"
+            src={banner}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img8">
+          <img src={banner} />
+          <a className="lightbox-close" href="#" />
+
+        </div>
         <h6>My winning banner design</h6>
 
         <div

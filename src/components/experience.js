@@ -29,8 +29,6 @@ class Experience extends React.Component {
           data-aos-delay="500"
         >
 Experience
-          {' '}
-          {isMobile ? '(tap!)' : '(hover!)'}
         </p>
         <div className="experience-container">
 
