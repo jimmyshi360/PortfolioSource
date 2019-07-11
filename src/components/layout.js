@@ -36,11 +36,11 @@ const Layout = ({ children }) => (
       <>
         <div style={{ height: '100%', textAlign: 'center' }}>
           <Header siteTitle={data.site.siteMetadata.title} />
-
+          <NavBar dynamic={false} active={1} />
           <NamePlate />
           <ButtonLayout />
           <Experience />
-          <NavBar dynamic={false} active={1} />
+          
 
         </div>
 
