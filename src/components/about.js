@@ -85,7 +85,7 @@ class About extends React.Component {
 
         </div>
         <h6>Best AWS and Assistive Tech Track at HackNYU 2017</h6>
-       
+
         <a className="lightbox" href="#img3" id="preimg3">
           <img
             alt="loading"
@@ -94,7 +94,7 @@ class About extends React.Component {
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img3" >
+        <div className="lightbox-target" id="img3">
           <img src={mhsHackathon} />
           <a className="lightbox-close" href="#preimg3" />
 
@@ -104,9 +104,9 @@ class About extends React.Component {
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
+          <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 		Perhaps you're wondering where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the pace.  My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
-        </p>
+          </p>
         </div>
         <a className="lightbox" href="#img4" id="preimg4">
           <img
@@ -126,11 +126,11 @@ class About extends React.Component {
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
+          <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
           Over the Summer of 2016, I studied game design from industry professionals and freelance developers at Carnegie Mellon University.  My team's final project won a National award founded by Barack Obama: the National STEM Video Game Design Challenge.
-        </p>
+          </p>
         </div>
- 
+
         <a className="lightbox" href="#img5" id="preimg5">
           <img
             alt="loading"
@@ -159,27 +159,27 @@ class About extends React.Component {
 
         </div>
 
-<div
+        <div
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
-        <h6>
+          <h6>
 A picture with some influential people in the video game industry
-          <br />
+            <br />
 (left) Emil Pagliarulo, Lead Designer of Fallout 3 at Bethesda Game Studios (right) Ed Fries, former Vice President of publishing at Microsoft
-        </h6>
+          </h6>
         </div>
         <div
           className="desc"
-          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
+          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
+          <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 		Outside of game development, I compete in coding competitions: the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
-        </p>
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
+          </p>
+          <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 I also like to draw. I used to take art classes and I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
-          {' '}
-        </p>
+            {' '}
+          </p>
         </div>
         <a className="lightbox" href="#img7" id="preimg7">
           <img
@@ -197,12 +197,14 @@ I also like to draw. I used to take art classes and I treat everything like it's
         <h6>A drawing of my friend from the ACM</h6>
         <div
           className="desc"
-          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
+          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-I designed the Official 2022 JHU Class Banner, and I apply my digital design skills in college through web development. I help maintain the WiCS website and I create new responsive frontends each year for HopHacks.        </p>
+          <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
+I designed the Official 2022 JHU Class Banner, and I apply my digital design skills in college through web development. I help maintain the WiCS website and I create new responsive frontends each year for HopHacks.
+            {' '}
+          </p>
         </div>
-        <a className="lightbox" href="#img8"id="preimg8">
+        <a className="lightbox" href="#img8" id="preimg8">
           <img
             alt="loading"
             src={banner}
@@ -210,7 +212,7 @@ I designed the Official 2022 JHU Class Banner, and I apply my digital design ski
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img8" >
+        <div className="lightbox-target" id="img8">
           <img src={banner} />
           <a className="lightbox-close" href="#preimg8" />
 
@@ -219,30 +221,30 @@ I designed the Official 2022 JHU Class Banner, and I apply my digital design ski
 
         <div
           className="desc"
-          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
+          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
-   
 
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-          {' '}
+
+          <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
+            {' '}
 I'm a digital designer and I enjoy creating polished experiences for all sorts of applications. Feel free to browse my projects and designs.
  I hope you like them!
-        </p>
+          </p>
 
-        <p className="desc" style={{ marginLeft: '20%', marginRight: '20%', fontSize: isMobile ? '0.7em' : '1em' }}>
-          <b>E-mail:</b>
-          {' '}
+          <p className="desc" style={{ marginLeft: '20%', marginRight: '20%', fontSize: isMobile ? '0.7em' : '1em' }}>
+            <b>E-mail:</b>
+            {' '}
 jimmyshi360@gmail.com
-          <br />
-          <b>Phone:</b>
-          {' '}
+            <br />
+            <b>Phone:</b>
+            {' '}
 (609)-216-0130
-          <br />
-          <b>LinkedIn Username:</b>
-          {' '}
+            <br />
+            <b>LinkedIn Username:</b>
+            {' '}
 jimmyshi360
 
-        </p>
+          </p>
         </div>
       </div>
     );

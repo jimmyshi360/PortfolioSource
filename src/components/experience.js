@@ -22,7 +22,7 @@ class Experience extends React.Component {
 
   render() {
     return (
-      <div id="experience-section" style={{ marginTop: '1%',  width: '100%', textAlign: 'center' }}>
+      <div id="experience-section" style={{ marginTop: '1%', width: '100%', textAlign: 'center' }}>
         <p
           data-aos="fade-up"
           data-aos-duration="1100"

@@ -21,31 +21,218 @@ class Skills extends React.Component {
         }}
       >
 
-        <h4>Skills</h4>
+        <h4
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0"
+        >
+Skills
+        </h4>
         <ul style={{ listStyle: 'none' }}>
-          <h5>Web Development</h5>
+          <h5
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            data-aos-delay="1500"
+          >
+Web Development
+          </h5>
           <li>
-        <span className="skill-item">React</span><span className="skill-item">Redux</span> 
-        <span className="skill-item">Jest</span> <span className="skill-item">JavaScript</span> <span className="skill-item">HTML</span>
-        <span className="skill-item">CSS</span><span className="skill-item">SCSS</span><span className="skill-item">LESS</span> 
-        <span className="skill-item">MaterialUI</span>
-        <span className="skill-item">Open Source</span>
-          
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="0"
+            >
+React
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="50"
+            >
+Redux
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="100"
+            >
+Jest
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="150"
+            >
+JavaScript
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="200"
+            >
+HTML
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="250"
+            >
+CSS
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="300"
+            >
+SCSS
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="350"
+            >
+LESS
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="400"
+            >
+MaterialUI
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="450"
+            >
+Open Source
+            </span>
+
           </li>
-          <h5>Backend/Middleware</h5>
+          <h5
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            data-aos-delay="1500"
+          >
+Backend/Middleware
+          </h5>
           <li>
-          <span className="skill-item">Python</span><span className="skill-item">Django (familiar)</span> 
-          <span className="skill-item">Redux-Saga</span> <span className="skill-item">WebSockets</span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="500"
+            >
+Python
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="550"
+            >
+Django (familiar)
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="600"
+            >
+Redux-Saga
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="650"
+            >
+WebSockets
+            </span>
           </li>
-          <h5>General languages </h5>
+          <h5
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            data-aos-delay="1500"
+          >
+General languages
+          </h5>
           <li>
-          <span className="skill-item">Java</span> <span className="skill-item">JUnit</span> <span className="skill-item">C# </span> <span className="skill-item">C (familiar)</span>
-          <span className="skill-item">C++ (familiar)</span> 
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="700"
+            >
+Java
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="750"
+            >
+JUnit
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="800"
+            >
+C#
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="850"
+            >
+C (familiar)
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="900"
+            >
+C++ (familiar)
+            </span>
           </li>
-          <h5>Digital Design Tools</h5>
+          <h5
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            data-aos-delay="1500"
+          >
+Digital Design
+          </h5>
           <li>
-          <span className="skill-item">Adobe Photoshop</span> 
-          <span className="skill-item">Adobe Illustrator and After Effects (familiar) </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="950"
+            >
+Adobe Photoshop
+            </span>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-delay="1000"
+            >
+Adobe Illustrator and After Effects (familiar)
+            </span>
           </li>
         </ul>
       </div>
