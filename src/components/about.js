@@ -14,7 +14,7 @@ import cmu from '../images/cmu.jpg';
 import stemAward from '../images/stemAward.jpg';
 import joshan from '../images/joshan.jpg';
 import banner from '../images/banner_campus.jpg';
-import foobar from '../images/foobar.jpg';
+import foobar from '../images/foobar.png';
 
 class About extends React.Component {
 	 componentDidMount() {
@@ -174,8 +174,25 @@ A picture with some influential people in the video game industry
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		Outside of game development, I compete in coding competitions: the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
+		Outside of game development, I like solving puzzles and competing in coding competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
           </p>
+
+          <a className="lightbox" href="#img10" id="preimg10">
+          <img
+            alt="loading"
+            src={foobar}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div className="lightbox-target" id="img10">
+          <img src={foobar} />
+          <a className="lightbox-close" href="#preimg10" />
+
+        </div>
+
+        <h6>Google Foobar challenge</h6>
+
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 I also like to draw. I used to take art classes and I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
             {' '}
