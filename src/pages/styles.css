@@ -206,3 +206,19 @@ a.lightbox img {
   top: 0px;
   }
   
+  .skill-item {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    padding-left: .55rem;
+    padding-right: .55rem;
+    margin-bottom: .5rem;
+    align-items: center;
+    color: #4a4a4a;
+    font-size: .75rem;
+    display: inline-flex;
+    height: 1.55em;
+    justify-content: center;
+    line-height: 1.5;
+  }
