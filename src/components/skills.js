@@ -1,7 +1,9 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import {
+  isMobile,
+} from 'react-device-detect';
 class Skills extends React.Component {
   componentDidMount() {
     this.aos = AOS;
@@ -17,7 +19,7 @@ class Skills extends React.Component {
         id="skills-section"
         className="skills-wrapper"
         style={{
-          marginTop: '100px', fontSize: '0.9em', marginLeft: '10vw', marginRight: '10vw',
+           marginTop: '10%', fontSize: '0.9em',  marginLeft: isMobile ? '10%' : '20%', marginRight: isMobile ? '10%' : '20%' ,
         }}
       >
 
@@ -28,6 +30,10 @@ class Skills extends React.Component {
         >
 Skills
         </h4>
+        <p 
+        data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="0">I'm a digital designer who leverages fullstack tools to create polished experiences. I've recently worked on a lot of React Redux Python stacks for component-based User Interface development.</p>
         <ul style={{ listStyle: 'none' }}>
           <h5
             data-aos="zoom-in"

@@ -17,11 +17,12 @@ class SkillsPage extends React.Component {
 
   render() {
     return (
-      <div style={{ height: '100vh' }}>
-        <Skills />
+      <>
         <NavBar dynamic={false} active={3} />
+        <Skills />
+        
         <Footer />
-      </div>
+      </>
     );
   }
 }

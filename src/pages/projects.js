@@ -7,11 +7,12 @@ import Footer from '../components/footer';
 class ProjectsPage extends React.Component {
   render() {
     return (
-      <div style={{ height: '100vh' }}>
-        <Projects />
+      <>
         <NavBar dynamic={false} active={4} />
+        <Projects />
+        
         <Footer />
-      </div>
+      </>
     );
   }
 }
