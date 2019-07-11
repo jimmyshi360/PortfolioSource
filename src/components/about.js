@@ -34,7 +34,7 @@ class About extends React.Component {
           marginTop: '125px',
         }}
       >
-        <h4>About</h4>
+        <h4>My story as a programmer</h4>
         <img
           alt="loading"
           className="desc"
@@ -106,16 +106,10 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-          I played around a ton with the Unity Game Engine in my free time, often bringing my laptop to the lunch table for people to playtest my games. Eventually, in the Summer of 2016, I enrolled in the National High School Video Game Design Academy at Carnegie Mellon University. I learned game design from experienced industry and freelance game developers. I met some great lifelong friends along the way!  My team's final project won a National award from a game design competition started by Barack Obama: the National STEM Video Game Design Challenge.
+          Over the Summer of 2016, I studied game design from industry professionals and freelance developers at Carnegie Mellon University.  My team's final project won a National award founded by Barack Obama: the National STEM Video Game Design Challenge.
         </p>
         </div>
-        <img
-          alt="loading"
-          className="desc"
-          src={cmu}
-          className="about-image"
-        />
-        <h6>Group photo at The Fence, Carnegie Mellon University</h6>
+ 
         <img
           alt="loading"
           className="desc"
@@ -145,23 +139,7 @@ A picture with some influential people in the video game industry
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		My career in tech was certainly kick-started by game development, but my formal introduction to Computer Science was through my high school's Computer Science curriculum. I'm grateful for the Intro to Java Programming and Advanced Algorithms classes that I took. I got into competition programming, and participated in many competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, ACM Intecollegiate Programming Contest, and a fun challenge called Google Foobar!
-        </p>
-        </div>
-        <img
-          alt="loading"
-          className="desc"
-          src={foobar}
-          className="about-image2"
-        />
-        <h6>Getting ready for Google Foobar</h6>
-
-        <div
-          className="desc"
-          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
-        >
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		In college, I got into web development working for HopHacks and the ACM. I designed the 2019 HopHacks Spring and Fall Website Frontends and I help maintain the WiCS website.
+		Outside of game development, I compete in coding competitions: the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
         </p>
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 Did I mention I like to draw? I used to take art classes. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
@@ -180,8 +158,7 @@ Did I mention I like to draw? I used to take art classes. I treat everything lik
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		I submitted a digital banner entry for JHU's 2022 Banner Competition, and welp, my classmates voted for it and I got to march my banner through the JHU campus!
-        </p>
+I designed the Official 2022 JHU Class Banner, and I apply my digital design skills in college through web development. I help maintain the WiCS website and I create new responsive frontends each year for HopHacks.        </p>
         </div>
         <img
           alt="loading"
@@ -195,9 +172,7 @@ Did I mention I like to draw? I used to take art classes. I treat everything lik
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%'}}
         >
-        <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		As of now, I'm working on expanding my knowledge of the Full Stack, while still applying beautiful design to the software projects I work on.  Modular, extensible and technical debt free code is right up my alley.  I'm a huge fan of React, Redux and other JavaScript libraries design to build clean and responsive User Interfaces.  I'd love to learn more about the backend; I've done some backend Bash, Django, Postgres SQL and Python projects and I'm very curious about designing scalable systems.
-        </p>
+   
 
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
           {' '}
