@@ -21,6 +21,7 @@ class About extends React.Component {
 	  this.aos = AOS;
     this.aos.init({
       duration: 2000,
+      once: true,
     });
   }
 
