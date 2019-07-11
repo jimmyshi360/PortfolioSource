@@ -34,7 +34,7 @@ class About extends React.Component {
           marginTop: '125px',
         }}
       >
-        <h4>My story as a programmer</h4>
+        <h4>About</h4>
         <img
           alt="loading"
           className="desc"
@@ -47,7 +47,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
- Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University looking to graduate in 2022. I love Full Stack development and I currently
+ Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University looking to graduate in MAy 2022. I love Full Stack development and I currently
  intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Department of Defense to be used by Navy Warfighters.
           </p>
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
@@ -142,7 +142,7 @@ A picture with some influential people in the video game industry
 		Outside of game development, I compete in coding competitions: the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
         </p>
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-Did I mention I like to draw? I used to take art classes. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
+I also like to draw. I used to take art classes and I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
           {' '}
         </p>
         </div>
