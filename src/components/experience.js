@@ -25,8 +25,8 @@ class Experience extends React.Component {
       <div id="experience-section" style={{ marginTop: '1%',  width: '100%', textAlign: 'center' }}>
         <p
           data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-duration="1100"
+          data-aos-delay="700"
         >
 Experience
         </p>
@@ -35,7 +35,7 @@ Experience
           <div
             className="box-slide"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1100"
             data-aos-delay="1000"
           >
             <a {... isMobile ? {} : { href: 'https://www.jhuapl.edu/' }} target="_blank">
@@ -56,7 +56,7 @@ JHU APL,
           <div
             className="box-slide"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1100"
             data-aos-delay="1300"
           >
             <a {... isMobile ? {} : { href: 'https://semester.ly/' }} target="_blank">
@@ -72,7 +72,7 @@ JHU APL,
           <div
             className="box-slide"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1100"
             data-aos-delay="1600"
           >
             <a {... isMobile ? {} : { href: 'https://hophacks.com/' }} target="_blank">
@@ -88,7 +88,7 @@ JHU APL,
           <div
             className="box-slide"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1100"
             data-aos-delay="1900"
           >
             <a {... isMobile ? {} : { href: 'https://www.princeton.edu/' }} target="_blank">
