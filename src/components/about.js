@@ -44,7 +44,7 @@ class About extends React.Component {
         />
         <div
           className="desc"
-          style={{ marginLeft: isMobile ? '10%' : '20%', marginRight: isMobile ? '10%' : '25%' }}
+          style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
  Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University looking to graduate in May 2022. I love Full Stack development and I currently
