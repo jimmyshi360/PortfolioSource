@@ -54,7 +54,7 @@ class About extends React.Component {
 		  I like to hang out with my friends at Hackathons. Coming up with new ideas and having fun making them is why I love software engineering!
           </p>
         </div>
-        <a className="lightbox" href="#img1">
+        <a className="lightbox" href="#img1" id="preimg1">
           <img
             alt="loading"
             src={hophacks}
@@ -64,14 +64,14 @@ class About extends React.Component {
         </a>
         <div className="lightbox-target" id="img1">
           <img src={hophacks} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg1" />
 
         </div>
 
         <h6>2nd Place at HopHacks 2018</h6>
 
 
-        <a className="lightbox" href="#img2">
+        <a className="lightbox" href="#img2" id="preimg2">
           <img
             alt="loading"
             src={nyu}
@@ -81,12 +81,12 @@ class About extends React.Component {
         </a>
         <div className="lightbox-target" id="img2">
           <img src={nyu} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg2" />
 
         </div>
         <h6>Best AWS and Assistive Tech Track at HackNYU 2017</h6>
        
-        <a className="lightbox" href="#img3">
+        <a className="lightbox" href="#img3" id="preimg3">
           <img
             alt="loading"
             src={mhsHackathon}
@@ -94,9 +94,9 @@ class About extends React.Component {
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img3">
+        <div className="lightbox-target" id="img3" >
           <img src={mhsHackathon} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg3" />
 
         </div>
         <h6>My first Hackathon! Best mobile app at HackMHS 2015</h6>
@@ -108,7 +108,7 @@ class About extends React.Component {
 		Perhaps you're wondering where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the pace.  My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
         </p>
         </div>
-        <a className="lightbox" href="#img4">
+        <a className="lightbox" href="#img4" id="preimg4">
           <img
             alt="loading"
             src={vienna}
@@ -118,7 +118,7 @@ class About extends React.Component {
         </a>
         <div className="lightbox-target" id="img4">
           <img src={vienna} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg4" />
 
         </div>
         <h6>(left) me, (right) family friend</h6>
@@ -131,7 +131,7 @@ class About extends React.Component {
         </p>
         </div>
  
-        <a className="lightbox" href="#img5">
+        <a className="lightbox" href="#img5" id="preimg5">
           <img
             alt="loading"
             src={stemAward}
@@ -141,11 +141,11 @@ class About extends React.Component {
         </a>
         <div className="lightbox-target" id="img5">
           <img src={stemAward} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg5" />
 
         </div>
         <h6>National STEM Video Game Design Challenge</h6>
-        <a className="lightbox" href="#img6">
+        <a className="lightbox" href="#img6" id="preimg6">
           <img
             alt="loading"
             src={stem}
@@ -155,7 +155,7 @@ class About extends React.Component {
         </a>
         <div className="lightbox-target" id="img6">
           <img src={stem} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg6" />
 
         </div>
 
@@ -181,7 +181,7 @@ I also like to draw. I used to take art classes and I treat everything like it's
           {' '}
         </p>
         </div>
-        <a className="lightbox" href="#img7">
+        <a className="lightbox" href="#img7" id="preimg7">
           <img
             alt="loading"
             src={joshan}
@@ -191,7 +191,7 @@ I also like to draw. I used to take art classes and I treat everything like it's
         </a>
         <div className="lightbox-target" id="img7">
           <img src={joshan} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg7" />
 
         </div>
         <h6>A drawing of my friend from the ACM</h6>
@@ -202,7 +202,7 @@ I also like to draw. I used to take art classes and I treat everything like it's
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
 I designed the Official 2022 JHU Class Banner, and I apply my digital design skills in college through web development. I help maintain the WiCS website and I create new responsive frontends each year for HopHacks.        </p>
         </div>
-        <a className="lightbox" href="#img8">
+        <a className="lightbox" href="#img8"id="preimg8">
           <img
             alt="loading"
             src={banner}
@@ -210,9 +210,9 @@ I designed the Official 2022 JHU Class Banner, and I apply my digital design ski
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img8">
+        <div className="lightbox-target" id="img8" >
           <img src={banner} />
-          <a className="lightbox-close" href="#" />
+          <a className="lightbox-close" href="#preimg8" />
 
         </div>
         <h6>My winning banner design</h6>
