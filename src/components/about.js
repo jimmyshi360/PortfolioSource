@@ -91,7 +91,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
         <p style={{ fontSize: isMobile ? '0.8em' : '1em' }}>
-		It's certainly been a long journey since I first started in tech. Perhaps you're wondering where I began and where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the east.  During my travels, I had my first experience with tech on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
+		Perhaps you're wondering where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the pace.  My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
         </p>
         </div>
         <img
@@ -115,7 +115,7 @@ class About extends React.Component {
           src={cmu}
           className="about-image"
         />
-        <h6>Chilling with friends at The Fence, Carnegie Mellon University</h6>
+        <h6>Group photo at The Fence, Carnegie Mellon University</h6>
         <img
           alt="loading"
           className="desc"
