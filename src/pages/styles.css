@@ -222,3 +222,13 @@ a.lightbox img {
     justify-content: center;
     line-height: 1.5;
   }
+
+  .desc p{
+    font-size: 0.9em;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .desc p{
+      font-size: 0.8em;
+    }
+  }
