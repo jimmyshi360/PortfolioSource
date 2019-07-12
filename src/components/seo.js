@@ -9,7 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
-import bannerImage from '../images/profile.jpg';
+import logo from '../images/gatsby-icon.png';
 
 function SEO({
   description, lang, meta, keywords, title,
@@ -56,7 +56,7 @@ function SEO({
         },
         {
           property: 'og:image',
-          content: bannerImage,
+          content: logo,
         },
         {
           property: 'og:url',
