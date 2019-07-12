@@ -45,7 +45,7 @@ JHU APL,
                   <br />
 							Air Missile Defense
                 </h4>
-                <h6>Frontend SWE Intern</h6>
+                <h6>SWE Intern</h6>
               </div>
               <div className="reveal-top">
                 <img className="slide-image" src={aplLogo} />
