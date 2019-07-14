@@ -73,7 +73,7 @@ Jest
               data-aos-duration="1100"
               data-aos-delay="150"
             >
-JavaScript
+JavaScript/TypeScript
             </span>
             <span
               className="skill-item"
