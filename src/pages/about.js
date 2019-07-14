@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import About from '../components/about';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
+import SEO from '../components/seo';
 
 class AboutPage extends React.Component {
   componentDidMount() {
@@ -18,6 +19,8 @@ class AboutPage extends React.Component {
   render() {
     return (
       <>
+        <SEO title="About" description="Jimmy Shi: Software Engineer and Digital Designer" keywords={['Jimmy Shi', 'Mingze Shi', 'Website', 'About']} />
+
          <NavBar dynamic={false} active={2} />
         <About />
        
