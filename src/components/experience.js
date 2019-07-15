@@ -78,7 +78,7 @@ JHU APL,
             <a {... isMobile ? {} : { href: 'https://hophacks.com/' }} target="_blank">
               <div className="reveal-content">
                 <h4>HopHacks</h4>
-                <h6>Cohead of Design/Frontend</h6>
+                <h6>Cohead of Design {'&'} Frontend</h6>
               </div>
               <div className="reveal-top">
                 <img className="slide-image" src={hophacksLogo} />
