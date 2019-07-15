@@ -265,6 +265,7 @@ a.lightbox img {
 
   .skills-wrapper {
     font-size: 0.9em;
+    margin-top: 10vh;
   }
   .skills-wrapper span{
     border-radius: 4px;
@@ -290,19 +291,22 @@ a.lightbox img {
     }
 
     .skills-wrapper {
-      font-size: 3em;
-      line-height: 1.5em;
+      font-size: 2.5em;
+      line-height: 1.2em;
       margin: 0 20vw;
-      
+      margin-top: 10vh;
     }
-
+    .skills-wrapper h4{
+      font-size: 1em;
+      line-height: 1.5em;
+    }
     .skills-wrapper span{
       font-size: 0.8em;
       border-radius: 10px;
     }
 
     .skills-wrapper h5{
-      font-size: 1em;
+      font-size: 0.9em;
       border-radius: 10px;
     }
 
