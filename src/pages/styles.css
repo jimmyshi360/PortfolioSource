@@ -303,6 +303,7 @@ a.lightbox img {
     .skills-wrapper span{
       font-size: 0.8em;
       border-radius: 10px;
+      margin: 0 10px;
     }
 
     .skills-wrapper h5{
