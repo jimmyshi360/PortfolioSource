@@ -4,7 +4,7 @@ import AOS from 'aos';
 import {
   isMobile,
 } from 'react-device-detect';
-import profile from '../images/profile.jpg';
+import profile from '../images/jimmy.png';
 import mhsHackathon from '../images/hackMHS.jpg';
 import stem from '../images/stem.jpg';
 import nyu from '../images/nyu.jpg';
