@@ -270,6 +270,11 @@ a.lightbox img {
   .skills-wrapper span{
     border-radius: 4px;
   }
+
+  .footer-text{
+    font-size: 1em;
+  }
+
   @media only screen and (max-width: 6px) {
     .skills-wrapper {
       font-size: 0.8em;
@@ -283,6 +288,11 @@ a.lightbox img {
     }
     #about-section h4{
       font-size: 3.5em;
+      line-height: 1.5em;
+    }
+
+    .footer-text{
+      font-size: 1.2em;
       line-height: 1.5em;
     }
 
