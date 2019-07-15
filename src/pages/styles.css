@@ -286,6 +286,15 @@ a.lightbox img {
       line-height: 1.5em;
     }
 
+    #about-section h6{
+      font-size: 2.5em;
+      line-height: 1.5em;
+    }
+
+    #about-section .about-image{
+      width: 40vw;
+    }
+
     .about-profile{
       width: 300px;
     }
