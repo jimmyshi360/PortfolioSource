@@ -38,10 +38,8 @@ class About extends React.Component {
         <h4>About</h4>
         <img
           alt="loading"
-          className="desc"
+          className="about-profile"
           src={profile}
-          style={{ borderRadius: '100%', width: '100px' }}
-
         />
         <div
           className="desc"

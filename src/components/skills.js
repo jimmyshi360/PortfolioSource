@@ -18,9 +18,7 @@ class Skills extends React.Component {
       <div
         id="skills-section"
         className="skills-wrapper"
-        style={{
-           marginTop: '10%', fontSize: '0.9em',  marginLeft: isMobile ? '5%' : '20%', marginRight: isMobile ? '5%' : '20%' ,
-        }}
+      
       >
 
         <h4
@@ -33,7 +31,7 @@ Skills
         <p 
         data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="0" style={{ fontSize: isMobile ? '0.8em' : '1em' }}>I'm a digital designer who leverages fullstack tools to create polished experiences. I've recently worked on a lot of React Redux Python stacks for component-based User Interface development.</p>
+          data-aos-delay="0">I'm a digital designer who leverages fullstack tools to create polished experiences. I've recently worked on a lot of React Redux Python stacks for component-based User Interface development.</p>
         <ul style={{ listStyle: 'none' }}>
           <h5
             data-aos="zoom-in"

@@ -11,7 +11,7 @@ class NavBar extends React.Component {
   render() {
     return (
    
-        <div id="scroller" className="navbar" style={{   position: 'fixed',
+        <div className="navbar" style={{   position: 'fixed',
         top: '0px',
         left: '0px'}}>
 

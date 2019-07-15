@@ -68,6 +68,7 @@
     }
 }
 
+
 .navlist-wrapper li{
     display: inline-block;
      margin: 3px 1vw;
@@ -93,7 +94,30 @@
 .navbarItem:hover .active {
   border-bottom: 3px solid black;
 }
+@media only screen and (min-width: 1100px) {
+  .navlist-wrapper {
+    height: 70px;
+  }
+  .navbarItem{
+    font-size: 3em;
+    height: 50px;
+  }
+  .navlist-wrapper li{
+     margin: 15px 1vw;
+  }
+  .navbarItem:hover .active {
+    border-bottom: 9px solid black;
+  }
+  .navbarItem.active {
+    border-bottom: 9px solid white;
+  }
+}
 
+@media only screen and (min-width: 1100px) {
+	#experience-section p {
+		font-size: 3em;
+	}
+}
 
 
 a.lightbox img {
@@ -230,5 +254,81 @@ a.lightbox img {
   @media only screen and (max-width: 1024px) {
     .desc p{
       font-size: 0.8em;
+    }
+  }
+
+  .about-profile{
+    border-radius: 100%;
+    width: 100px;
+  }
+
+
+  .skills-wrapper {
+    font-size: 0.9em;
+  }
+  .skills-wrapper span{
+    border-radius: 4px;
+  }
+  @media only screen and (max-width: 6px) {
+    .skills-wrapper {
+      font-size: 0.8em;
+    }
+  }
+
+  @media only screen and (min-width: 1100px) {
+    .desc p{
+      font-size: 3em;
+      line-height: 1.5em;
+    }
+    #about-section h4{
+      font-size: 3.5em;
+      line-height: 1.5em;
+    }
+
+    .about-profile{
+      width: 300px;
+    }
+
+    .skills-wrapper {
+      font-size: 3em;
+      line-height: 1.5em;
+      margin: 0 20vw;
+      
+    }
+
+    .skills-wrapper span{
+      font-size: 0.8em;
+      border-radius: 10px;
+    }
+
+    .skills-wrapper h5{
+      font-size: 1em;
+      border-radius: 10px;
+    }
+
+    #projects-section h1{
+      font-size: 3em;
+    }
+    #projects-section h2{
+      font-size: 3em;
+    }
+    #projects-section h3{
+      font-size: 3em;
+    }
+    #projects-section h4{
+      font-size: 3em;
+    }
+    #projects-section h5{
+      font-size: 3em;
+    }
+    #projects-section h6{
+      font-size: 3em;
+    }
+    #projects-section p{
+      font-size: 3em;
+    }
+
+    .website {
+      height: 1300px;
     }
   }
