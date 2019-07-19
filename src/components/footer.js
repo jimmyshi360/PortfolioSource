@@ -42,7 +42,7 @@ and
         {' '}
         {new Date().getFullYear()}
         {' '}
-Jimmy Shi
+Jimmy Shi · (609)-216-0130 · jimmyshi360@gmail.com
       </footer>
     );
   }
