@@ -17,7 +17,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home" description="Jimmy Shi: Software Engineer and Digital Designer" keywords={['Jimmy Shi', 'Mingze Shi', 'Website']} />
+        <SEO title="Home" description="Jimmy Shi: Software Engineer and Digital Designer" keywords={['Jimmy Shi', 'Mingze Shi', 'Website', 'jimmyshi', 'jimmy shi']} />
 
 
       </Layout>
