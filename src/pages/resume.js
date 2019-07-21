@@ -6,7 +6,7 @@ class ResumePage extends React.Component {
 
 
 render() {
-	const url='http://docs.google.com/viewer?url=https://jimmyshi.com'+resume+'&embedded=true';
+	const url='https://docs.google.com/viewer?url=https://jimmyshi.com'+resume+'&embedded=true';
 	return(<iframe src={url} style={{width: '100%', height: '100vh'}} ></iframe>
 );
 }
