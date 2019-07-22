@@ -36,7 +36,7 @@ Skills
           <h5
             data-aos="zoom-in"
             data-aos-duration="600"
-            data-aos-delay="1500"
+            data-aos-delay="1000"
           >
 Web Development
           </h5>
@@ -126,7 +126,7 @@ Open Source
           <h5
             data-aos="zoom-in"
             data-aos-duration="600"
-            data-aos-delay="1500"
+            data-aos-delay="1000"
           >
 Backend/Middleware
           </h5>
@@ -167,7 +167,7 @@ WebSockets
           <h5
             data-aos="zoom-in"
             data-aos-duration="1100"
-            data-aos-delay="1500"
+            data-aos-delay="1000"
           >
 General languages
           </h5>
@@ -216,7 +216,7 @@ C++ (familiar)
           <h5
             data-aos="zoom-in"
             data-aos-duration="1100"
-            data-aos-delay="1500"
+            data-aos-delay="1000"
           >
 Digital Design
           </h5>
