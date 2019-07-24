@@ -8,7 +8,12 @@ class NavBar extends React.Component {
     this.state = { expanded: false };
   }
 
+  componentDidMount(){
+      
+  }
+  
   render() {
+    
     return (
    
         <div className="navbar" style={{   position: 'fixed',
