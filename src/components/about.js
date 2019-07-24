@@ -176,7 +176,7 @@ A picture with some influential people in the video game industry
 		Outside of game development, I like solving puzzles and competing in coding competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
           </p>
 
-          <a className="lightbox" href="#img10" id="preimg10">
+          <a className="lightbox" href="#img9" id="preimg9">
           <img
             alt="loading"
             src={foobar}
@@ -184,9 +184,9 @@ A picture with some influential people in the video game industry
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img10">
+        <div className="lightbox-target" id="img9">
           <img src={foobar} />
-          <a className="lightbox-close" href="#preimg10" />
+          <a className="lightbox-close" href="#preimg9" />
 
         </div>
 

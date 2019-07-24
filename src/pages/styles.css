@@ -130,6 +130,7 @@ a.lightbox img {
     z-index:100;
   position: fixed;
   top: -100%;
+  left: 0px;
   width: 100%;
   background: rgba(0,0,0,.7);
   width: 100%;
