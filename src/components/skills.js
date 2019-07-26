@@ -33,13 +33,13 @@ Skills
           data-aos-duration="1000"
           data-aos-delay="0">I'm a digital designer who leverages fullstack tools to create polished experiences. I've recently worked on a lot of React Redux Python stacks for component-based User Interface development.</p>
         <ul style={{ listStyle: 'none' }}>
-          <h5
+          <p
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="1000"
           >
 Web Development
-          </h5>
+          </p>
           <li>
             <span
               className="skill-item"
@@ -123,13 +123,13 @@ Open Source
             </span>
 
           </li>
-          <h5
+          <p
             data-aos="zoom-in"
             data-aos-duration="600"
             data-aos-delay="1000"
           >
 Backend/Middleware
-          </h5>
+          </p>
           <li>
             <span
               className="skill-item"
@@ -164,13 +164,13 @@ Redux-Saga
 WebSockets
             </span>
           </li>
-          <h5
+          <p
             data-aos="zoom-in"
             data-aos-duration="1100"
             data-aos-delay="1000"
           >
 General languages
-          </h5>
+          </p>
           <li>
             <span
               className="skill-item"
@@ -213,13 +213,13 @@ C (familiar)
 C++ (familiar)
             </span>
           </li>
-          <h5
+          <p
             data-aos="zoom-in"
             data-aos-duration="1100"
             data-aos-delay="1000"
           >
 Digital Design
-          </h5>
+          </p>
           <li>
             <span
               className="skill-item"
