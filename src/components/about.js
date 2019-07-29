@@ -46,7 +46,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p >
- Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University looking to graduate in May 2022. I love Full Stack development and I currently
+ Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University graduating in May 2022 and Cohead of Design at HopHacks (JHU's official Hackathon). I love Full Stack development and I currently
  intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Department of Defense to be used by Navy Warfighters.
           </p>
           <p>
@@ -176,7 +176,7 @@ A picture with some influential people in the video game industry
 		Outside of game development, I like solving puzzles and competing in coding competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
           </p>
 
-          <a className="lightbox" href="#img10" id="preimg10">
+          <a className="lightbox" href="#img9" id="preimg9">
           <img
             alt="loading"
             src={foobar}
@@ -184,9 +184,9 @@ A picture with some influential people in the video game industry
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img10">
+        <div className="lightbox-target" id="img9">
           <img src={foobar} />
-          <a className="lightbox-close" href="#preimg10" />
+          <a className="lightbox-close" href="#preimg9" />
 
         </div>
 

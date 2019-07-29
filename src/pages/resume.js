@@ -1,5 +1,4 @@
 import React from 'react';
-import { Document, Page } from 'react-pdf'
 import resume from '../resume/resumeJimmyShi.pdf';
 
 class ResumePage extends React.Component {
