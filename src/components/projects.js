@@ -8,71 +8,157 @@ import micropalletProject from '../images/micropallet_project.jpg';
 import jsImgProject from '../images/js_img_project.png';
 import ccProject from '../images/cc_project.png';
 import pirateMapsProject from '../images/pirate_maps.png';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../pages/styles.css';
 
-const Projects = () => (
+class Projects extends React.Component {
 
-  <div id="projects-section" className="projects" style={{ marginTop: '5%' }}>
-    <h4>Projects</h4>
+  componentDidMount() {
+    this.aos = AOS;
+    this.aos.init({
+      duration: 2000,
+    });
+  }
 
-    <a href="https://jimmyshi360.github.io/f19/">
-      <p><b> My HopHacks Fall 2019 Website Design </b></p>
-      <h6>{'<React, MeteorJS, JavaScript, HTML5, SCSS, Linux, Git, Adobe Photoshop and After Effects/>'}</h6>
-    </a>
-    <iframe title="Hophacks Site" className="website" src="https://hophacks.com" scrolling="yes" />
+  createSkillsList(list){
 
-    <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms">
-      <p><b> Computational Genomics, Princeton University- Highly Parallel Computing Architecture </b></p>
-      <h6>{'<Python, Multiprocessing, Linux, Bash, Git/>'}</h6>
-      <img alt="loading" className="codebase" src={genomicProject} />
-    </a>
+    return (
 
-    <a href="https://jimmyshi360.github.io/charmcity/">
-      <p><b> Charm City Murals- Training CNN Models on 1 Image </b></p>
-      <h6>{'<Python, TensorFlow, HTML5, Bootstrap, CSS, Flask/>'}</h6>
-      <img alt="loading" className="codebase" src={ccProject} />
-      <iframe title="Machine Learning Project Site" className="website" src="https://jimmyshi360.github.io/charmcity/" scrolling="yes" />
-    </a>
+      <div
+        style={{ display: 'inline-block'}}
+      >
+      <ul style={{ listStyle: 'none' }}>
+      {list.map( (item, i) => {
+      return (
+        <li style={{ display: 'inline-block'}}>
+            <span
+              className="skill-item"
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay={i*50}
+             
+            >{item}
+            </span>
+            </li>
+      )} )}
+      </ul>
+      </div>
+   );
+  }
 
-    <a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis">
-      <p><b> Image Processing Project (UC Irvine Collab)- Analyzing 32 + Megapixel Images </b></p>
-      <h6>{'<Java, Java Swing, JUnit/>'}</h6>
-      <img alt="loading" className="codebase" src={micropalletProject} />
-    </a>
+  render() {
+    return(
+      <div id="projects-section" className="projects" style={{ marginTop: '5%' }}>
+                <p> Page under construction </p>
+                
+                <h1> Software Projects</h1>
 
-    <a href="https://github.com/jimmyshi360/micro-image-transformations">
-      <p><b> Node JavaScript Image Processing Microlibrary </b></p>
-      <h6>{'<NodeJS, npm, JavaScript/>'}</h6>
-      <img alt="loading" className="codebase" src={jsImgProject} />
-    </a>
-    <h1> Older Projects</h1>
-
-    <a href="https://play.google.com/store/apps/details?id=com.CSI.HSSPirateMaps&hl=en_US">
-      <p><b> Android App- Djikstra's for building navigation</b></p>
-      <h6>{'<Unity Game Engine, C#, Djikstra Shortest path with backtracking/>'}</h6>
-      <img alt="loading" className="codebase" src={pirateMapsProject} />
-    </a>
-
-    <a href="https://www.youtube.com/watch?v=DyGzAc4K2yg">
-      <p><b> Hack and Slash Video Game, built from scratch using C# and Unity 3D </b></p>
-      <h6>{'<Unity Game Engine, C#, Vector Physics, Adobe Photoshop and Illustrator/>'}</h6>
-    </a>
-    <iframe title="Video Game" className="website" src="https://www.youtube.com/embed/DyGzAc4K2yg" frameBorder="0" scrolling="yes" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-
-
-    <h2>Apparel</h2>
-    <img alt="loading" className="graphic" src={bannerShirt} />
-    <h2>Graphics</h2>
-    <p><b>I designed the official JHU Class of 2022 Banner </b></p>
-    <h6>{'<Adobe Photoshop and Illustrator/>'}</h6>
-
-    <img alt="loading" className="graphic" src={banner} />
-    <br />
-    <img alt="loading" className="graphic" src={bannerCampus} />
-  </div>
+        <div className="project-grid-container">
+           <div className="grid-item"> 
+        <iframe title="Hophacks Site" className="website" src="https://hophacks.com" scrolling="yes" />
+        </div>
+        <div className="grid-item"> 
+        <a href="https://jimmyshi360.github.io/f19/">
+          <p><b> My HopHacks Fall 2019 Website Design </b></p>
+          <p> I designed and implemented the frontend using:</p>
+            {this.createSkillsList(["React", "MeteorJS", "JavaScript", "HTML5", "LESS", "Linux", "Git", "Adobe Photoshop", "Adobe After Effects"]) }
+        </a>
+        </div>
+      
+      
+        <div className="grid-item"> 
+        <img alt="loading" className="codebase" src={genomicProject} />
+        </div>
+        <div className="grid-item"> 
+        <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms">
+          <p><b> Computational Genomics, Princeton University- Highly Parallel Computing Architecture </b></p>
+          {this.createSkillsList(["Python", "Multiprocessing", "Linux", "Bash", "Git"])}
+          
+        </a>
+        </div>
 
 
-);
+        <div className="grid-item"> 
+        <img alt="loading" className="codebase" src={ccProject} />
+        </div>
+
+
+        <div className="grid-item"> 
+
+        <a href="https://jimmyshi360.github.io/charmcity/">
+          <p><b> Charm City Murals- Training CNN Models on 1 Image </b></p>
+          {this.createSkillsList(["Python", "TensorFlow", "HTML5", "Bootstrap", "CSS", "Flask"])}
+          
+        </a>
+        </div>
+
+        <div className="grid-item"> 
+        <img alt="loading" className="codebase" src={micropalletProject} />
+        </div>
+        <div className="grid-item"> 
+        <a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis">
+          <p><b> Image Processing Project (UC Irvine Collab)- Analyzing 32 + Megapixel Images </b></p>
+          {this.createSkillsList(["Java", "Swing", "JUnit"])}
+        </a>
+        </div>
+        <div className="grid-item"> 
+        <img alt="loading" className="codebase" src={jsImgProject} />
+
+        </div>
+        <div className="grid-item"> 
+        <a href="https://github.com/jimmyshi360/micro-image-transformations">
+          <p><b> Node JavaScript Image Processing Microlibrary </b></p>
+          {this.createSkillsList(["NodeJS", "npm", "JavaScript"])}
+        </a>
+        </div>   
+        
+      </div>
+        <h1> Older Projects</h1>
+        <div className="project-grid-container">
+
+        <div className="grid-item"> 
+        <img alt="loading" className="codebase" src={pirateMapsProject} />
+
+        </div>
+        <div className="grid-item"> 
+        <a href="https://play.google.com/store/apps/details?id=com.CSI.HSSPirateMaps&hl=en_US">
+          <p><b> Android App- Djikstra's for building navigation</b></p>
+          {this.createSkillsList(["Unity Game Engine", "C#", "Djikstra Shortest path with backtracking"])}
+        </a>
+        </div>
+
+        <div className="grid-item"> 
+        <iframe title="Video Game" className="website" src="https://www.youtube.com/embed/DyGzAc4K2yg" frameBorder="0" scrolling="yes" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+
+        </div>
+        <div className="grid-item"> 
+        <a href="https://www.youtube.com/watch?v=DyGzAc4K2yg">
+          <p><b> Hack and Slash Video Game, built from scratch using C# and Unity 3D </b></p>
+          {this.createSkillsList(["Unity Game Engine", "C#", "Vector Physics", "Adobe Photoshop","Adobe Illustrator"])}
+        </a>
+        </div>
+        </div>
+        <h2>Graphics</h2>
+        <div className="graphics-grid-container">
+
+        <div className="grid-item"> 
+        <img alt="loading" className="graphic" src={bannerShirt} />
+        </div>
+    
+        <div className="grid-item"> 
+        <img alt="loading" className="graphic" src={banner} />
+        </div>
+        <div className="grid-item"> 
+        <img alt="loading" className="graphic" src={bannerCampus} />
+        </div>
+
+      </div>
+      <p><b> Johns Hopkins University Banner and Class T-shirt</b></p>
+      </div>
+      );
+    }
+
+}
 
 export default Projects;
