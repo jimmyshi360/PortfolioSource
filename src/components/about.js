@@ -10,8 +10,8 @@ import stem from '../images/stem.jpg';
 import nyu from '../images/nyu.jpg';
 import hophacks from '../images/hophacks.jpg';
 import vienna from '../images/vienna.jpg';
-import cmu from '../images/cmu.jpg';
 import stemAward from '../images/stemAward.jpg';
+import oldman from '../images/oldman.jpg';
 import joshan from '../images/joshan.jpg';
 import banner from '../images/banner_campus.jpg';
 import foobar from '../images/foobar.png';
@@ -197,6 +197,7 @@ I also like to draw. I used to take art classes and I treat everything like it's
             {' '}
           </p>
         </div>
+
         <a className="lightbox" href="#img7" id="preimg7">
           <img
             alt="loading"
@@ -210,7 +211,22 @@ I also like to draw. I used to take art classes and I treat everything like it's
           <a className="lightbox-close" href="#preimg7" />
 
         </div>
-        <h6>A drawing of my friend from the ACM</h6>
+        <h6>A rough sketch of my friend from the ACM</h6>
+
+        <a className="lightbox" href="#img11" id="preimg11">
+          <img
+            alt="loading"
+            src={oldman}
+            className="desc"
+            className="about-image"
+          />
+        </a>
+        <div  className="lightbox-target" id="img11">
+          <img src={oldman} />
+          <a className="lightbox-close" href="#preimg11" />
+
+        </div>
+        <h6>A painting of mine from last year</h6>
         <div
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
