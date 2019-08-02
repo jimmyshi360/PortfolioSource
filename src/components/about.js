@@ -104,7 +104,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p>
-		Perhaps you're wondering where I'm from. I was born in Beijing, but lived around Europe, mostly in Vienna, Austria for the first few years of my life. My dad worked in the UN, so we traveled all over the place.  My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
+		 I was born in Beijing, but lived around Europe mostly in Vienna, Austria. My dad worked in the UN, so we traveled all over the place.  I moved to Princeton Junction, New Jersey when I was seven.
           </p>
         </div>
         <a className="lightbox" href="#img4" id="preimg4">
@@ -120,11 +120,14 @@ class About extends React.Component {
           <a className="lightbox-close" href="#preimg4" />
 
         </div>
-        <h6>(left) me, (right) family friend</h6>
+        <h6>me (left), family friend (right) </h6>
         <div
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
+          <p>
+          My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
+          </p>
           <p>
           Over the Summer of 2016, I studied game design from industry professionals and freelance developers at Carnegie Mellon University.  My team's final project won a National award founded by Barack Obama: the National STEM Video Game Design Challenge.
           </p>
@@ -163,9 +166,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <h6>
-A picture with some influential people in the video game industry
-            <br />
-(left) Emil Pagliarulo, Lead Designer of Fallout 3 at Bethesda Game Studios (right) Ed Fries, former Vice President of publishing at Microsoft
+ Emil Pagliarulo, Senior Designer of Skyrim (left), Ed Fries, former Vice President of publishing at Microsoft (right)
           </h6>
         </div>
         <div
@@ -173,7 +174,7 @@ A picture with some influential people in the video game industry
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p>
-		Outside of game development, I like solving puzzles and competing in coding competitions like the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
+		Outside of game development, I'm on the Johns Hopkins University ICPC Programming team. I've previously competed in the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
           </p>
 
           <a className="lightbox" href="#img9" id="preimg9">
@@ -193,7 +194,7 @@ A picture with some influential people in the video game industry
         <h6>Google Foobar challenge</h6>
 
           <p >
-I also like to draw. I used to take art classes and I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
+      I used to take art classes from Chinese painter Yong Zhou. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
             {' '}
           </p>
         </div>
@@ -206,12 +207,12 @@ I also like to draw. I used to take art classes and I treat everything like it's
             className="about-image"
           />
         </a>
-        <div className="lightbox-target" id="img7">
+        <div  className="lightbox-target" id="img7">
           <img src={joshan} />
           <a className="lightbox-close" href="#preimg7" />
-
+          
         </div>
-        <h6>A rough sketch of my friend from the ACM</h6>
+        
 
         <a className="lightbox" href="#img11" id="preimg11">
           <img
@@ -219,14 +220,15 @@ I also like to draw. I used to take art classes and I treat everything like it's
             src={oldman}
             className="desc"
             className="about-image"
+            style={{marginLeft: '1vw', width: '325px'}}
           />
         </a>
-        <div  className="lightbox-target" id="img11">
+        <div className="lightbox-target" id="img11">
           <img src={oldman} />
-          <a className="lightbox-close" href="#preimg11" />
-
+          <a  className="lightbox-close" href="#preimg11" />
+          
         </div>
-        <h6>A painting of mine from last year</h6>
+        <h6>A rough sketch of my friend from the ACM and a painting of mine from last year.</h6>
         <div
           className="desc"
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
