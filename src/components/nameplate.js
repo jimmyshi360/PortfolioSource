@@ -29,7 +29,6 @@ and
               <i>digital designer</i>
             </p>
           </div>
-          <p>Website under construction</p>
         </div>
       </div>
     );

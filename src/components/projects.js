@@ -18,6 +18,7 @@ class Projects extends React.Component {
     this.aos = AOS;
     this.aos.init({
       duration: 2000,
+	   once: true,
     });
   }
 
@@ -62,7 +63,7 @@ class Projects extends React.Component {
         <div className="grid-item"> 
         <a href="https://jimmyshi360.github.io/f19/">
           <p><b> My HopHacks Fall 2019 Website Design </b></p>
-          <p> I designed and implemented the frontend using:</p>
+          <p> The Fall 2019 HopHacks site which I coded using a React stack and designed using Adobe products. My Spring and Fall 2019 sites have 11,500+ combined views</p>
             {this.createSkillsList(["React", "MeteorJS", "JavaScript", "HTML5", "LESS", "Linux", "Git", "Adobe Photoshop", "Adobe After Effects"]) }
         </a>
         </div>
@@ -76,6 +77,8 @@ class Projects extends React.Component {
         <div className="grid-item"> 
         <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms">
           <p><b> Computational Genomics, Princeton University- Highly Parallel Computing Architecture </b></p>
+		  <p> I worked on this research project at Princeton University for gene set data analysis. I tackled the challenge of optimizing statistical tests with a high potential for thread-based computing. I designed an architecture that could best minimize overhead and maximize speed.</p>
+
           {this.createSkillsList(["Python", "Multiprocessing", "Linux", "Bash", "Git"])}
           
         </a>
