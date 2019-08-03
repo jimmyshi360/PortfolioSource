@@ -161,9 +161,14 @@ class Projects extends React.Component {
         <a href="https://www.youtube.com/watch?v=DyGzAc4K2yg">
           <p><b> Hack and Slash Video Game, built from scratch using C# and Unity 3D </b></p>
           	<p>6,000 lines of code and lots of physics makes this game run in the Unity 3D engine. I'm a big fan of art and special FX, so I team up with two other developers at Carnegie Mellon University to create this 2D action RPG!</p>
+          	<p>Awards:</p>
+				<p>
+				2016 National STEM Video Game Design Award ($3,000)</p>
+			{this.createSkillsList(["Unity Game Engine", "C#", "Vector Physics", "Adobe Photoshop","Adobe Illustrator", "Audacity", "PiskelApp"])}
 
-		  {this.createSkillsList(["Unity Game Engine", "C#", "Vector Physics", "Adobe Photoshop","Adobe Illustrator", "Audacity", "PiskelApp"])}
+
         </a>
+
         </div>
         </div>
         <h2>Graphics</h2>
