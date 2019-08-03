@@ -50,11 +50,12 @@ class Projects extends React.Component {
   render() {
     return(
       <div id="projects-section" className="projects" style={{ marginTop: '5%' }}>
-                <p> Page under construction </p>
+                <h1> Page under construction </h1>
                 
                 <h1> Software Projects</h1>
 
         <div className="project-grid-container">
+		
            <div className="grid-item"> 
         <iframe title="Hophacks Site" className="website" src="https://hophacks.com" scrolling="yes" />
         </div>
@@ -68,7 +69,9 @@ class Projects extends React.Component {
       
       
         <div className="grid-item"> 
+		<a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms">
         <img alt="loading" className="codebase" src={genomicProject} />
+		</a>
         </div>
         <div className="grid-item"> 
         <a href="https://github.com/jimmyshi360/Gene-Set-Data-Analysis-Algorithms">
@@ -80,7 +83,9 @@ class Projects extends React.Component {
 
 
         <div className="grid-item"> 
+		 <a href="https://jimmyshi360.github.io/charmcity/">
         <img alt="loading" className="codebase" src={ccProject} />
+		 </a>
         </div>
 
 
@@ -94,7 +99,10 @@ class Projects extends React.Component {
         </div>
 
         <div className="grid-item"> 
+		        <a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis">
+
         <img alt="loading" className="codebase" src={micropalletProject} />
+		 </a>
         </div>
         <div className="grid-item"> 
         <a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis">
@@ -103,8 +111,10 @@ class Projects extends React.Component {
         </a>
         </div>
         <div className="grid-item"> 
-        <img alt="loading" className="codebase" src={jsImgProject} />
+		        <a href="https://github.com/jimmyshi360/micro-image-transformations">
 
+        <img alt="loading" className="codebase" src={jsImgProject} />
+ </a>
         </div>
         <div className="grid-item"> 
         <a href="https://github.com/jimmyshi360/micro-image-transformations">
@@ -118,7 +128,10 @@ class Projects extends React.Component {
         <div className="project-grid-container">
 
         <div className="grid-item"> 
+		        <a href="https://play.google.com/store/apps/details?id=com.CSI.HSSPirateMaps&hl=en_US">
+
         <img alt="loading" className="codebase" src={pirateMapsProject} />
+        </a>
 
         </div>
         <div className="grid-item"> 
