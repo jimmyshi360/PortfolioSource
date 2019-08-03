@@ -88,6 +88,7 @@ class Projects extends React.Component {
         <div className="grid-item"> 
 		 <a href="https://jimmyshi360.github.io/charmcity/">
         <img alt="loading" className="codebase" src={ccProject} />
+		
 		 </a>
         </div>
 
@@ -96,6 +97,8 @@ class Projects extends React.Component {
 
         <a href="https://jimmyshi360.github.io/charmcity/">
           <p><b> Charm City Murals- Training CNN Models on 1 Image </b></p>
+		<p> A project for recognizing and drawing bounding boxes around Baltimore Murals. The vision model was trained on just 1 or 2 images of each mural and it was able to recognize the samples that we trained! I helped deliver the frontend canvas for displaying the results produced by models. I worked with an ex-Google engineer to design the project and I got to learn more about Machine Learning!</p>
+
           {this.createSkillsList(["Python", "TensorFlow", "HTML5", "Bootstrap", "CSS", "Flask"])}
           
         </a>
@@ -109,7 +112,9 @@ class Projects extends React.Component {
         </div>
         <div className="grid-item"> 
         <a href="https://github.com/jimmyshi360/Micropallet-Image-Analysis">
-          <p><b> Image Processing Project (UC Irvine Collab)- Analyzing 32 + Megapixel Images </b></p>
+          <p><b> Image Processing Project- Analyzing 32 + Megapixel Images </b></p>
+		<p>I worked with a research fellow from University of California Irvine to help him complete a frontend Java application for micropallet image analysis. This software can identify significant radioactive markers in cancer cell samples and speeds up data analysis for lab scientists!</p>
+
           {this.createSkillsList(["Java", "Swing", "JUnit"])}
         </a>
         </div>
@@ -122,6 +127,8 @@ class Projects extends React.Component {
         <div className="grid-item"> 
         <a href="https://github.com/jimmyshi360/micro-image-transformations">
           <p><b> Node JavaScript Image Processing Microlibrary </b></p>
+		  		<p> A published npm package for some simple web-based NodeJS image transformations. This project was my first introduction to NodeJS and publishing packages!</p>
+
           {this.createSkillsList(["NodeJS", "npm", "JavaScript"])}
         </a>
         </div>   
@@ -140,6 +147,8 @@ class Projects extends React.Component {
         <div className="grid-item"> 
         <a href="https://play.google.com/store/apps/details?id=com.CSI.HSSPirateMaps&hl=en_US">
           <p><b> Android App- Djikstra's for building navigation</b></p>
+	<p>A published Android app for building navigation. Programming Djikstra's shortest path in a game engine was harder than I thought. Getting backtracking to work was even more of a challenge!</p>
+
           {this.createSkillsList(["Unity Game Engine", "C#", "Djikstra Shortest path with backtracking"])}
         </a>
         </div>
@@ -151,7 +160,9 @@ class Projects extends React.Component {
         <div className="grid-item"> 
         <a href="https://www.youtube.com/watch?v=DyGzAc4K2yg">
           <p><b> Hack and Slash Video Game, built from scratch using C# and Unity 3D </b></p>
-          {this.createSkillsList(["Unity Game Engine", "C#", "Vector Physics", "Adobe Photoshop","Adobe Illustrator"])}
+          	<p>6,000 lines of code and lots of physics makes this game run in the Unity 3D engine. I'm a big fan of art and special FX, so I team up with two other developers at Carnegie Mellon University to create this 2D action RPG!</p>
+
+		  {this.createSkillsList(["Unity Game Engine", "C#", "Vector Physics", "Adobe Photoshop","Adobe Illustrator", "Audacity", "PiskelApp"])}
         </a>
         </div>
         </div>
