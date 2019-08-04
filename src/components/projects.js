@@ -61,7 +61,7 @@ class Projects extends React.Component {
         <iframe title="Hophacks Site" className="website" src="https://hophacks.com" scrolling="yes" />
         </div>
         <div className="grid-item"> 
-        <a href="https://jimmyshi360.github.io/f19/">
+        <a href="https://hophacks.com/">
           <p><b> My HopHacks Fall 2019 Website Design </b></p>
           <p> The Fall 2019 HopHacks site which I coded using a React stack and designed using Adobe products. My Spring and Fall 2019 sites have 11,500+ combined views</p>
             {this.createSkillsList(["React", "MeteorJS", "JavaScript", "HTML5", "LESS", "Linux", "Git", "Adobe Photoshop", "Adobe After Effects"]) }
