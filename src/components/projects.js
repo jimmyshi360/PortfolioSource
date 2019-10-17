@@ -51,7 +51,7 @@ class Projects extends React.Component {
   render() {
     return(
       <div id="projects-section" className="projects" style={{ marginTop: '5%' }}>
-                <h1> Page under construction </h1>
+               
                 
                 <h1> Software Projects</h1>
 
