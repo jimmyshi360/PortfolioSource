@@ -46,7 +46,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p >
- Hi! I'm Jimmy, a Sophomore Computer Science Major at Johns Hopkins University graduating in May 2022 and Cohead of Design at HopHacks (JHU's official Hackathon). I love Full Stack development and I currently
+ Hi! I'm Jimmy, a Computer Science Major at Johns Hopkins University graduating in May 2021 and Cohead of Design at HopHacks (JHU's official Hackathon). I love Full Stack development and I currently
  intern at JHU APL Air Missile Defense as a Software Engineering Intern helping expand their React/Redux/Saga/Jest/Flask codebase- a mission planner for the Department of Defense to be used by Navy Warfighters.
           </p>
           <p>
