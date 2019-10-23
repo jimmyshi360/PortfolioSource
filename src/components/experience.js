@@ -90,7 +90,7 @@ JHU APL,
             className="box-slide"
             data-aos="fade-up"
             data-aos-duration="1100"
-            data-aos-delay="1600"
+            data-aos-delay="1900"
           >
             <a {... isMobile ? {} : { href: 'https://www.acm.org/' }} target="_blank">
               <div className="reveal-content">
@@ -107,7 +107,7 @@ JHU APL,
             className="box-slide"
             data-aos="fade-up"
             data-aos-duration="1100"
-            data-aos-delay="1900"
+            data-aos-delay="2200"
           >
             <a {... isMobile ? {} : { href: 'https://www.princeton.edu/' }} target="_blank">
               <div className="reveal-content">
