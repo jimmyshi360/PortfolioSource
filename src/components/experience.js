@@ -5,7 +5,7 @@ import {
 } from 'react-device-detect';
 import aplLogo from '../images/apl_logo.jpg';
 import semLogo from '../images/sem_logo.png';
-
+import acmLogo from '../images/acm_logo.png';
 
 import 'aos/dist/aos.css';
 import hophacksLogo from '../images/hophacks_logo.png';
@@ -85,6 +85,24 @@ JHU APL,
               </div>
             </a>
           </div>
+		  
+		  <div
+            className="box-slide"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+            data-aos-delay="1600"
+          >
+            <a {... isMobile ? {} : { href: 'https://www.acm.org/' }} target="_blank">
+              <div className="reveal-content">
+                <h4>ACM</h4>
+                <h6>Past Board Member</h6>
+              </div>
+              <div className="reveal-top">
+                <img className="slide-image" src={acmLogo} />
+              </div>
+            </a>
+          </div>
+		  
           <div
             className="box-slide"
             data-aos="fade-up"

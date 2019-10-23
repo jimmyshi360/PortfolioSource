@@ -23,20 +23,20 @@ class Skills extends React.Component {
 
         <h4
           data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-delay="0"
         >
 Skills
         </h4>
         <p 
         data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-delay="0">I'm a digital designer who leverages fullstack tools to create polished experiences. I've recently worked on a lot of React Redux Python stacks for component-based User Interface development.</p>
         <ul style={{ listStyle: 'none' }}>
           <p
             data-aos="zoom-in"
             data-aos-duration="600"
-            data-aos-delay="1000"
+            data-aos-delay="800"
           >
 Web Development
           </p>
@@ -44,7 +44,7 @@ Web Development
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="0"
             >
 React
@@ -52,7 +52,7 @@ React
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="50"
             >
 Redux
@@ -60,7 +60,7 @@ Redux
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
 Jest
@@ -68,7 +68,7 @@ Jest
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="150"
             >
 JavaScript/TypeScript
@@ -76,7 +76,7 @@ JavaScript/TypeScript
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="200"
             >
 HTML
@@ -84,7 +84,7 @@ HTML
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="250"
             >
 CSS
@@ -92,7 +92,7 @@ CSS
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="300"
             >
 SCSS
@@ -100,7 +100,7 @@ SCSS
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="350"
             >
 LESS
@@ -108,7 +108,7 @@ LESS
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="400"
             >
 MaterialUI
@@ -116,7 +116,7 @@ MaterialUI
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="450"
             >
 Open Source
@@ -125,7 +125,7 @@ Open Source
           </li>
           <p
             data-aos="zoom-in"
-            data-aos-duration="600"
+            data-aos-duration="500"
             data-aos-delay="1000"
           >
 Backend/Middleware
@@ -134,7 +134,7 @@ Backend/Middleware
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="1100"
+              data-aos-duration="800"
               data-aos-delay="650"
             >
 Python
@@ -142,7 +142,7 @@ Python
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="600"
             >
 Django (familiar)
@@ -150,7 +150,7 @@ Django (familiar)
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="550"
             >
 Redux-Saga
@@ -158,7 +158,7 @@ Redux-Saga
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="500"
             >
 WebSockets
@@ -166,7 +166,7 @@ WebSockets
           </li>
           <p
             data-aos="zoom-in"
-            data-aos-duration="1100"
+            data-aos-duration="800"
             data-aos-delay="1000"
           >
 General languages
@@ -175,7 +175,7 @@ General languages
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="700"
             >
 Java
@@ -183,7 +183,7 @@ Java
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="750"
             >
 JUnit
@@ -191,7 +191,7 @@ JUnit
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="800"
             >
 C#
@@ -199,7 +199,7 @@ C#
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="850"
             >
 C (familiar)
@@ -207,7 +207,7 @@ C (familiar)
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="900"
             >
 C++ (familiar)
@@ -215,7 +215,7 @@ C++ (familiar)
           </li>
           <p
             data-aos="zoom-in"
-            data-aos-duration="1100"
+            data-aos-duration="800"
             data-aos-delay="1000"
           >
 Digital Design
@@ -224,7 +224,7 @@ Digital Design
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="1050"
             >
 Adobe Photoshop
@@ -232,7 +232,7 @@ Adobe Photoshop
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="1000"
             >
 Adobe Illustrator (familiar)
@@ -241,7 +241,7 @@ Adobe Illustrator (familiar)
             <span
               className="skill-item"
               data-aos="fade-up"
-              data-aos-duration="600"
+              data-aos-duration="500"
               data-aos-delay="950"
             >
 Adobe After Effects (familiar)
