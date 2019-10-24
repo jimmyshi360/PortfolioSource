@@ -6,7 +6,7 @@ import {
 import aplLogo from '../images/apl_logo.jpg';
 import semLogo from '../images/sem_logo.png';
 import acmLogo from '../images/acm_logo.png';
-
+import palantirLogo from '../images/palantir_logo.png';
 import 'aos/dist/aos.css';
 import hophacksLogo from '../images/hophacks_logo.png';
 import princetonLogo from '../images/princeton_logo.jpg';
@@ -31,7 +31,26 @@ class Experience extends React.Component {
 Experience
         </p>
         <div className="experience-container">
-
+		
+		{/*
+		  <div
+            className="box-slide"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+            data-aos-delay="700"
+          >
+            <a {... isMobile ? {} : { href: 'https://www.palantir.com/' }} target="_blank">
+              <div className="reveal-content">
+                <h4>Palantir
+                </h4>
+                <h6>Incoming Software Engineer Intern</h6>
+              </div>
+              <div className="reveal-top">
+                <img className="slide-image" src={palantirLogo} />
+              </div>
+            </a>
+          </div>
+		  */}
           <div
             className="box-slide"
             data-aos="fade-up"
