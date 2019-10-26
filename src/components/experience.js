@@ -3,7 +3,7 @@ import AOS from 'aos';
 import {
   isMobile,
 } from 'react-device-detect';
-import aplLogo from '../images/apl_logo.jpg';
+import aplLogo from '../images/apl_logo.png';
 import semLogo from '../images/sem_logo.png';
 import acmLogo from '../images/acm_logo.png';
 import palantirLogo from '../images/palantir_logo.png';
