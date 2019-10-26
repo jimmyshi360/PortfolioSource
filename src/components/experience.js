@@ -81,7 +81,7 @@ JHU APL,
             <a {... isMobile ? {} : { href: 'https://semester.ly/' }} target="_blank">
               <div className="reveal-content">
                 <h4>Semester.ly</h4>
-                <h6>Fullstack Software Engineer Intern</h6>
+                <h6>Software Engineer Intern</h6>
               </div>
               <div className="reveal-top">
                 <img className="slide-image" src={semLogo} />
@@ -97,7 +97,7 @@ JHU APL,
             <a {... isMobile ? {} : { href: 'https://hophacks.com/' }} target="_blank">
               <div className="reveal-content">
                 <h4>HopHacks</h4>
-                <h6>Cohead of Design {'&'} Frontend</h6>
+                <h6>Head of Design {'&'} Frontend</h6>
               </div>
               <div className="reveal-top">
                 <img className="slide-image" src={hophacksLogo} />
