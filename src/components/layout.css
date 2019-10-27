@@ -290,11 +290,11 @@ ul{
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
 
-			animation-delay: 2;
-			-webkit-animation-delay:2s;
-			 -o-animation-delay: 2s;
-			 -ms-animation-delay:2s;
-			  -moz-animation-delay:2s;
+			animation-delay: 1s;
+			-webkit-animation-delay:1s;
+			 -o-animation-delay: 1s;
+			 -ms-animation-delay:1s;
+			  -moz-animation-delay:1s;
 			  animation-fill-mode: forwards;
 }
 
