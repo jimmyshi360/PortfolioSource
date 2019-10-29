@@ -31,8 +31,8 @@ class Experience extends React.Component {
 Experience
         </p>
         <div className="experience-container">
+	
 		
-		{/*
 		  <div
             className="box-slide"
             data-aos="fade-up"
@@ -50,7 +50,7 @@ Experience
               </div>
             </a>
           </div>
-		*/}
+		
           <div
             className="box-slide"
             data-aos="fade-up"
