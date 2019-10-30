@@ -113,7 +113,7 @@ JHU APL,
           >
             <a {... isMobile ? {} : { href: 'https://www.acm.org/' }} target="_blank">
               <div className="reveal-content">
-                <h4>ACM</h4>
+                <h4>JHU ACM</h4>
                 <h6>Past Board Member</h6>
               </div>
               <div className="reveal-top">
