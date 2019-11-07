@@ -175,7 +175,7 @@ class About extends React.Component {
           <p>
 		Outside of game development, I'm on the Johns Hopkins University ICPC Programming team. I've previously competed in the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
           </p>
-
+          	{/*
           <a className="lightbox" href="#img9" id="preimg9">
           <img
             alt="loading"
@@ -191,7 +191,7 @@ class About extends React.Component {
         </div>
 
         <h6>Google Foobar challenge</h6>
-
+		*/}
           <p >
       I used to take art classes from Chinese painter Yong Zhou. I treat everything like it's art: software, websites and even text documents. I believe beautiful design makes everything better!
             {' '}
