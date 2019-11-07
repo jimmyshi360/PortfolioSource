@@ -43,7 +43,7 @@ Experience
               <div className="reveal-content">
                 <h4>Palantir
                 </h4>
-                <h6>Incoming Software Engineer Intern</h6>
+                <h6></h6>
               </div>
               <div className="reveal-top">
                 <img className="slide-image" src={palantirLogo} />
