@@ -6,6 +6,7 @@ import {
 import aplLogo from '../images/apl_logo.png';
 import semLogo from '../images/sem_logo.png';
 import acmLogo from '../images/acm_logo.png';
+import icpcLogo from '../images/icpc_logo.png';
 import palantirLogo from '../images/palantir_logo.png';
 import 'aos/dist/aos.css';
 import hophacksLogo from '../images/hophacks_logo.png';
@@ -97,7 +98,7 @@ Experience
             <a {... isMobile ? {} : { href: 'https://hophacks.com/' }} target="_blank">
               <div className="reveal-content">
                 <h4>HopHacks</h4>
-                <h6>Head of Design {'&'} Frontend</h6>
+                <h6>Cohead of Design {'&'} Frontend</h6>
               </div>
               <div className="reveal-top">
                 <img className="slide-image" src={hophacksLogo} />
@@ -122,11 +123,28 @@ Experience
             </a>
           </div>
 		  
-          <div
+		  <div
             className="box-slide"
             data-aos="fade-up"
             data-aos-duration="1100"
             data-aos-delay="2200"
+          >
+            <a {... isMobile ? {} : { href: 'https://icpc.baylor.edu/' }} target="_blank">
+              <div className="reveal-content">
+                <h4>ICPC Programming Contest</h4>
+                <h6>Team Captain</h6>
+              </div>
+              <div className="reveal-top">
+                <img className="slide-image" src={icpcLogo} />
+              </div>
+            </a>
+          </div>
+		  
+          <div
+            className="box-slide"
+            data-aos="fade-up"
+            data-aos-duration="1100"
+            data-aos-delay="2500"
           >
             <a {... isMobile ? {} : { href: 'https://www.princeton.edu/' }} target="_blank">
               <div className="reveal-content">
