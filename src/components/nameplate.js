@@ -19,14 +19,14 @@ class NamePlate extends React.Component {
             <p className="nameplate-role">
               <b>
                 {'<'}
-software engineer
+full stack developer
                 {'/>'}
               </b>
             </p>
             <p className="nameplate-title">
               {' '}
 and
-              <i>digital designer</i>
+              <i>graphic designer</i>
             </p>
           </div>
         </div>
