@@ -46,10 +46,10 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p >
- Hi! I'm Jimmy, a Computer Science Major at Johns Hopkins University graduating in May 2021 and Cohead of Design at HopHacks (JHU's official Hackathon). I love Full Stack development and I will be interning at Palantir Technologies. I've worked on a lot of React-Redux Python stacks in the past.
+ Hi! I'm Jimmy, a Computer Science Major at Johns Hopkins University graduating in May 2021 and Cohead of Design at HopHacks: JHU's official Hackathon. I enjoy full stack development and I'll be interning at Palantir Technologies.
           </p>
           <p>
-		  I like to hang out with my friends at Hackathons. Coming up with new ideas and having fun making them is why I love software engineering!
+		  I'm a fast paced developer who loves working in teams and exploring new ideas. 
           </p>
         </div>
         <a className="lightbox" href="#img1" id="preimg1">
@@ -125,7 +125,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p>
-          My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew what I wanted to do in my spare time: make games! (I like to call it digital design)
+          My first experience with tech was on an old iMac in Vienna playing Pac-Man. I was hooked... I knew I wanted to make games as a hobby.
           </p>
           <p>
           Over the Summer of 2016, I studied game design from industry professionals and freelance developers at Carnegie Mellon University.  My team's final project won a National award founded by Barack Obama: the National STEM Video Game Design Challenge.
@@ -173,7 +173,7 @@ class About extends React.Component {
           style={{ marginLeft: isMobile ? '10%' : '25%', marginRight: isMobile ? '10%' : '25%' }}
         >
           <p>
-		Outside of game development, I'm on the Johns Hopkins University ICPC Programming team. I've previously competed in the USA Computing Olympiad, UPenn PClassic, Bloomberg CodeCon, and the ACM Intercollegiate Programming Contest.
+		Outside of game development, I Captain the Johns Hopkins University ICPC Programming team. We were 11th/160 teams this year at the Mid-Atlantic regional. I've previously competed in the USA Computing Olympiad, UPenn PClassic and Bloomberg CodeCon.
           </p>
           	{/*
           <a className="lightbox" href="#img9" id="preimg9">
