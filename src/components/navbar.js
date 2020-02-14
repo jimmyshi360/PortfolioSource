@@ -27,11 +27,11 @@ class NavBar extends React.Component {
                   <span>Home</span>
                 </Link>
               </li>
-              <li className={this.props.active === 2 ? 'navbarItem  active' : 'navbarItem '}>
+              {/*<li className={this.props.active === 2 ? 'navbarItem  active' : 'navbarItem '}>
                 <Link to="/about">
                   <span>About</span>
                 </Link>
-              </li>
+    </li>*/}
               <li className={this.props.active === 3 ? 'navbarItem  active' : 'navbarItem '}>
                 <Link to="/skills">
                   <span>Skills</span>
