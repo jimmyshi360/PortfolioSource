@@ -176,23 +176,6 @@ class Experience extends React.Component {
 
           </div>
 
-          <div
-            className="box-slide"
-            data-aos="fade-up"
-            data-aos-duration="1100"
-            data-aos-delay="2800"
-          >
-            <a {...isMobile ? {} : { href: 'https://www.princeton.edu/' }} target="_blank">
-              <div className="reveal-content">
-                <h4>Princeton University</h4>
-                <h6>Research Intern</h6>
-              </div>
-              <div className="reveal-top">
-                <img className="slide-image" src={princetonLogo} />
-              </div>
-            </a>
-
-          </div>
 
         </div>
       </div>
